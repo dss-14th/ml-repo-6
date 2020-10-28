@@ -1,0 +1,207 @@
+name,cpu_mark,price,link,t_class,clockspeed,turbospeed,cores,r_date,p_value
+AMD Ryzen Threadripper PRO 3995WX,"88,673",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+3995WX&id=3837,Desktop,2.7 GHz,4.2 GHz,Cores: 64 Threads: 128 ,Q2 2020,NA
+AMD Ryzen Threadripper 3990X,"80,340","$3,799.79",https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+3990X&id=3674,Desktop,2.9 GHz,4.3 GHz,Cores: 64 Threads: 128 ,Q1 2020,21.14
+AMD Ryzen Threadripper PRO 3975WX,"65,123",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+3975WX&id=3851,Desktop,3.5 GHz,4.2 GHz,Cores: 32 Threads: 64 ,Q4 2020,NA
+AMD Ryzen Threadripper 3970X,"64,362","$1,998.99",https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+3970X&id=3623,Desktop,3.7 GHz,4.5 GHz,Cores: 32 Threads: 64 ,Q4 2019,32.20
+AMD Ryzen Threadripper 3960X,"55,512","$1,349.98",https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+3960X&id=3617,Desktop,3.8 GHz,4.5 GHz,Cores: 24 Threads: 48 ,Q4 2019,41.12
+AMD Ryzen Threadripper PRO 3955WX,"42,152",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+3955WX&id=3846,Desktop,3.9 GHz,4.3 GHz,Cores: 16 Threads: 32 ,Q2 2020,NA
+AMD Ryzen 9 3950X,"39,277",$709.99,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+3950X&id=3598,Desktop,3.5 GHz,4.7 GHz,Cores: 16 Threads: 32 ,Q4 2019,55.32
+AMD Ryzen Threadripper PRO 3945WX,"34,884",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+3945WX&id=3845,Desktop,4.0 GHz,4.3 GHz,Cores: 12 Threads: 24 ,Q2 2020,NA
+Intel Core i9-10980XE @ 3.00GHz,"34,138","$1,019.00",https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10980XE+%40+3.00GHz&id=3630,Desktop,3.0 GHz,4.8 GHz,Cores: 18 Threads: 36 ,Q4 2019,33.50
+AMD Ryzen 9 3900XT,"33,185",$454.99,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+3900XT&id=3778,Desktop,3.8 GHz,4.7 GHz,Cores: 12 Threads: 24 ,Q2 2020,72.93
+AMD Ryzen 9 3900X,"32,865",$439.99,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+3900X&id=3493,Desktop,3.8 GHz,4.6 GHz,Cores: 12 Threads: 24 ,Q2 2019,74.70
+AMD Ryzen Threadripper 2990WX,"32,108","$1,449.99",https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+2990WX&id=3309,Desktop,3.0 GHz,4.2 GHz,Cores: 32 Threads: 64 ,Q2 2018,22.14
+Intel Core i9-9990XE @ 4.00GHz,"31,941",NA,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9990XE+%40+4.00GHz&id=3770,Desktop,4.0 GHz,5.0 GHz,Cores: 14 Threads: 28 ,Q2 2020,NA
+Intel Xeon W-3175X @ 3.10GHz,"31,814","$3,098.97",https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-3175X+%40+3.10GHz&id=3420,Desktop,3.1 GHz,3.8 GHz,Cores: 28 Threads: 56 ,Q1 2019,10.27
+AMD Ryzen 9 PRO 3900,"31,800",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+PRO+3900&id=3563,Desktop,3.1 GHz,4.3 GHz,Cores: 12 Threads: 24 ,Q2 2019,NA
+Intel Core i9-9980XE @ 3.00GHz,"31,556","$1,249.99",https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9980XE+%40+3.00GHz&id=3373,Desktop,3.0 GHz,4.5 GHz,Cores: 18 Threads: 36 ,Q4 2018,25.25
+AMD Ryzen 9 3900,"30,928",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+3900&id=3575,Desktop,3.1 GHz,4.3 GHz,Cores: 12 Threads: 24 ,Q4 2019,NA
+AMD Ryzen Threadripper 2950X,"30,792",$589.99,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+2950X&id=3316,Desktop,3.5 GHz,4.4 GHz,Cores: 16 Threads: 32 ,Q2 2018,52.19
+Intel Core i9-9960X @ 3.10GHz,"30,663","$1,699.99",https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9960X+%40+3.10GHz&id=3405,Desktop,3.1 GHz,4.4 GHz,Cores: 16 Threads: 32 ,Q1 2019,18.04
+Intel Core i9-10940X @ 3.30GHz,"29,797",$829.90*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10940X+%40+3.30GHz&id=3639,Desktop,3.3 GHz,4.8 GHz,Cores: 14 Threads: 28 ,Q4 2019,35.90
+Intel Core i9-9940X @ 3.30GHz,"28,208",$772.88*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9940X+%40+3.30GHz&id=3358,Desktop,3.3 GHz,4.5 GHz,Cores: 14 Threads: 28 ,Q4 2018,36.50
+AMD Ryzen Threadripper 2970WX,"28,071","$1,156.40",https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+2970WX&id=3345,Desktop,3.0 GHz,4.2 GHz,Cores: 24 Threads: 48 ,Q4 2018,24.27
+Intel Core i9-10920X @ 3.50GHz,"26,369",$679.00,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10920X+%40+3.50GHz&id=3632,Desktop,3.5 GHz,4.8 GHz,Cores: 12 Threads: 24 ,Q4 2019,38.83
+AMD Ryzen Threadripper 2920X,"25,650",$709.99*,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+2920X&id=3354,Desktop,3.5 GHz,4.3 GHz,Cores: 12 Threads: 24 ,Q4 2018,36.13
+Intel Core i9-9920X @ 3.50GHz,"25,344",$642.16,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9920X+%40+3.50GHz&id=3378,Desktop,3.5 GHz,4.5 GHz,Cores: 12 Threads: 24 ,Q4 2018,39.47
+Intel Core i9-10900K @ 3.70GHz,"24,261",$549.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10900K+%40+3.70GHz&id=3730,Intel UHD Graphics 630,FCLGA1200,3.7 GHz,Turbo Speed: 5.3 GHz,Q2 2020,44.11
+AMD Ryzen 7 3800XT,"24,216",$379.00,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+3800XT&id=3797,Desktop,3.9 GHz,4.7 GHz,Cores: 8 Threads: 16 ,Q2 2020,63.89
+Intel Core i9-10900KF @ 3.70GHz,"23,630",$619.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10900KF+%40+3.70GHz&id=3754,Desktop,3.7 GHz,5.3 GHz,Cores: 10 Threads: 20 ,Q2 2020,38.11
+AMD Ryzen 7 3800X,"23,346",$339.99,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+3800X&id=3499,Desktop,3.9 GHz,4.5 GHz,Cores: 8 Threads: 16 ,Q2 2019,68.67
+Intel Core i9-10850K @ 3.60GHz,"23,094",$479.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10850K+%40+3.60GHz&id=3824,Intel UHD Graphics 630,FCLGA1200,3.6 GHz,Turbo Speed: 5.1 GHz,Q2 2020,48.11
+Intel Core i9-10900X @ 3.70GHz,"22,919",$589.00,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10900X+%40+3.70GHz&id=3633,Desktop,3.7 GHz,4.7 GHz,Cores: 10 Threads: 20 ,Q4 2019,38.91
+Intel Xeon W-2255 @ 3.70GHz,"22,841",$778.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-2255+%40+3.70GHz&id=3689,FCLGA2066,4.7 GHz,10 Threads,Typical TDP: 165  W,Q1 2020,29.36
+AMD Ryzen 5 5600X,"22,824",$299.00*,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+5600X&id=3859,Desktop,3.7 GHz,4.6 GHz,Cores: 6 Threads: 12 ,Q4 2020,76.34
+AMD Ryzen 7 3700X,"22,815",$309.99,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+3700X&id=3485,Desktop,3.6 GHz,4.4 GHz,Cores: 8 Threads: 16 ,Q2 2019,73.60
+Intel Core i9-10910 @ 3.60GHz,"22,237",NA,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10910+%40+3.60GHz&id=3832,Intel UHD Graphics 630,FCLGA1200,3.6 GHz,Turbo Speed: 5.0 GHz,Q2 2020,NA
+Intel Core i9-9900X @ 3.50GHz,"21,908",$601.73,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9900X+%40+3.50GHz&id=3376,Desktop,3.5 GHz,4.5 GHz,Cores: 10 Threads: 20 ,Q4 2018,36.41
+AMD Ryzen 7 PRO 3700,"21,755",$279.99,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+PRO+3700&id=3564,Desktop,3.6 GHz,4.4 GHz,Cores: 8 Threads: 16 ,Q2 2019,77.70
+AMD Ryzen 7 4700G,"21,667",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+4700G&id=3836,with Radeon Graphics,AM4,3.6 GHz,Turbo Speed: 4.4 GHz,Q2 2020,NA
+Intel Core i9-10900 @ 2.80GHz,"21,380",$469.00,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10900+%40+2.80GHz&id=3745,Intel UHD Graphics 630,FCLGA1200,2.8 GHz,Turbo Speed: 5.2 GHz,Q2 2020,45.59
+Intel Core i9-10900F @ 2.80GHz,"21,325",$483.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10900F+%40+2.80GHz&id=3798,Desktop,2.8 GHz,5.2 GHz,Cores: 10 Threads: 20 ,Q2 2020,44.06
+AMD Ryzen 7 PRO 4750G,"21,160",$289.00*,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+PRO+4750G&id=3789,with Radeon Graphics,AM4,3.6 GHz,Turbo Speed: 4.4 GHz,Q2 2020,73.22
+AMD Ryzen Threadripper 2990X,"20,885",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+2990X&id=3332,Desktop,3.4 GHz,4.2 GHz,Cores: 32 Threads: 64 ,Q4 2018,NA
+AMD Ryzen 7 PRO 4700G,"20,848",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+PRO+4700G&id=3813,with Radeon Graphics,AM4,3.6 GHz,Turbo Speed: 4.4 GHz,Q2 2020,NA
+AMD Ryzen 7 4700GE,"20,671",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+4700GE&id=3847,with Radeon Graphics,AM4,3.1 GHz,Turbo Speed: 4.3 GHz,Q2 2020,NA
+Intel Core i9-9820X @ 3.30GHz,"20,507",$536.00,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9820X+%40+3.30GHz&id=3369,Desktop,3.3 GHz,4.2 GHz,Cores: 10 Threads: 20 ,Q4 2018,38.26
+AMD Ryzen 7 PRO 4750GE,"20,456",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+PRO+4750GE&id=3842,with Radeon Graphics,AM4,3.1 GHz,Turbo Speed: 4.3 GHz,Q2 2020,NA
+Intel Core i7-10700K @ 3.80GHz,"19,671",$377.77,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10700K+%40+3.80GHz&id=3733,Intel UHD Graphics 630,FCLGA1200,3.8 GHz,Turbo Speed: 5.1 GHz,Q2 2020,52.07
+Intel Core i7-10700KF @ 3.80GHz,"19,596",$409.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10700KF+%40+3.80GHz&id=3757,Desktop,3.8 GHz,5.1 GHz,Cores: 8 Threads: 16 ,Q2 2020,47.80
+Intel Core i9-9900KS @ 4.00GHz,"19,484","$1,965.00",https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9900KS+%40+4.00GHz&id=3593,Intel UHD Graphics 630,FCLGA1151-2,4.0 GHz,Turbo Speed: 5.0 GHz,Q4 2019,9.92
+AMD Ryzen 5 3600XT,"19,016",$239.99,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3600XT&id=3781,Desktop,3.8 GHz,4.5 GHz,Cores: 6 Threads: 12 ,Q2 2020,79.24
+Intel Core i9-9900KF @ 3.60GHz,"18,885",$379.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9900KF+%40+3.60GHz&id=3435,Desktop,3.6 GHz,5.0 GHz,Cores: 8 Threads: 16 ,Q2 2019,49.70
+Intel Core i9-9900K @ 3.60GHz,"18,867",$409.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9900K+%40+3.60GHz&id=3334,Intel UHD Graphics 630,FCLGA1151-2,3.6 GHz,Turbo Speed: 5.0 GHz,Q4 2018,46.02
+AMD Ryzen 5 3600X,"18,316",$234.99,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3600X&id=3494,Desktop,3.8 GHz,4.4 GHz,Cores: 6 Threads: 12 ,Q2 2019,77.94
+Intel Core i7-9800X @ 3.80GHz,"18,252",$396.00,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9800X+%40+3.80GHz&id=3374,Desktop,3.8 GHz,4.5 GHz,Cores: 8 Threads: 16 ,Q4 2018,46.09
+AMD Ryzen 5 PRO 3600,"17,892",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+PRO+3600&id=3495,Desktop,3.6 GHz,6 Threads,Typical TDP: 65  W,Q2 2019,NA
+AMD Ryzen 5 3600,"17,857",$199.99,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3600&id=3481,Desktop,3.6 GHz,4.2 GHz,Cores: 6 Threads: 12 ,Q2 2019,89.29
+AMD Ryzen 7 2700X,"17,581",$214.39,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+2700X&id=3238,Desktop,3.7 GHz,4.3 GHz,Cores: 8 Threads: 16 ,Q2 2018,82.01
+Intel Core i7-10700 @ 2.90GHz,"17,497",$319.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10700+%40+2.90GHz&id=3747,Intel UHD Graphics 630,FCLGA1200,2.9 GHz,Turbo Speed: 4.8 GHz,Q2 2020,54.68
+Intel Core i7-10700F @ 2.90GHz,"17,426",$429.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10700F+%40+2.90GHz&id=3806,Desktop,2.9 GHz,4.8 GHz,Cores: 8 Threads: 16 ,Q2 2020,40.53
+AMD Ryzen 5 4600G,"17,197",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+4600G&id=3807,with Radeon Graphics,AM4,3.7 GHz,Turbo Speed: 4.2 GHz,Q2 2020,NA
+Intel Core i9-9900 @ 3.10GHz,"17,195",$414.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9900+%40+3.10GHz&id=3487,Intel UHD Graphics 630,FCLGA1151-2,3.1 GHz,Turbo Speed: 5.0 GHz,Q2 2019,41.44
+Intel Core i9-10900T @ 1.90GHz,"16,991",$439.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10900T+%40+1.90GHz&id=3751,Intel UHD Graphics 630,FCLGA1200,1.9 GHz,Turbo Speed: 4.6 GHz,Q2 2020,38.70
+AMD Ryzen 7 PRO 2700X,"16,846",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+PRO+2700X&id=3292,Desktop,3.7 GHz,4.3 GHz,Cores: 8 Threads: 16 ,Q2 2018,NA
+AMD Ryzen 5 PRO 4650GE,"16,769",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+PRO+4650GE&id=3843,with Radeon Graphics,AM4,3.3 GHz,Turbo Speed: 4.2 GHz,Q2 2020,NA
+AMD Ryzen 5 PRO 4650G,"16,748",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+PRO+4650G&id=3795,with Radeon Graphics,AM4,3.7 GHz,Turbo Speed: 4.2 GHz,Q2 2020,NA
+AMD Ryzen 5 4600GE,"16,377",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+4600GE&id=3835,with Radeon Graphics,AM4,3.3 GHz,Turbo Speed: 4.2 GHz,Q2 2020,NA
+AMD Ryzen 5 PRO 4400G,"16,212",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+PRO+4400G&id=3828,with Radeon Graphics,3.7 GHz,4.3 GHz,Cores: 6 Threads: 12 ,Q2 2020,NA
+AMD Ryzen 7 2700,"15,721",$362.84,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+2700&id=3240,Desktop,3.2 GHz,4.1 GHz,Cores: 8 Threads: 16 ,Q2 2018,43.33
+AMD Ryzen 7 PRO 2700,"15,223",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+PRO+2700&id=3307,Desktop,3.2 GHz,4.1 GHz,Cores: 8 Threads: 16 ,Q2 2018,NA
+Intel Core i5-10600KF @ 4.10GHz,"14,867",$244.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10600KF+%40+4.10GHz&id=3810,Desktop,4.1 GHz,4.8 GHz,Cores: 6 Threads: 12 ,Q2 2020,60.68
+Intel Core i7-8086K @ 4.00GHz,"14,734",$691.76,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8086K+%40+4.00GHz&id=3279,Intel UHD Graphics 630,FCLGA1151-2,4.0 GHz,Turbo Speed: 5.0 GHz,Q2 2018,21.30
+Intel Core i7-9700KF @ 3.60GHz,"14,716",$319.00,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9700KF+%40+3.60GHz&id=3428,Desktop,3.6 GHz,4.9 GHz,Cores: 8 Threads: 8 ,Q2 2019,46.13
+AMD Ryzen 7 2700E,"14,657",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+2700E&id=3548,Desktop,2.8 GHz,4.0 GHz,Cores: 8 Threads: 16 ,Q2 2019,NA
+Intel Core i5-10600K @ 4.10GHz,"14,636",$274.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10600K+%40+4.10GHz&id=3735,Intel UHD Graphics 630,FCLGA1200,4.1 GHz,Turbo Speed: 4.8 GHz,Q2 2020,53.22
+Intel Core i7-9700K @ 3.60GHz,"14,615",$279.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9700K+%40+3.60GHz&id=3335,Intel UHD Graphics 630,FCLGA1151-2,3.6 GHz,Turbo Speed: 4.9 GHz,Q4 2018,52.20
+AMD Ryzen 5 2600X,"14,094",$166.99,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+2600X&id=3235,Desktop,3.6 GHz,4.2 GHz,Cores: 6 Threads: 12 ,Q2 2018,84.40
+Intel Core i5-10600 @ 3.30GHz,"14,074",$224.00,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10600+%40+3.30GHz&id=3750,Intel UHD Graphics 630,FCLGA1200,3.3 GHz,Turbo Speed: 4.8 GHz,Q2 2020,62.83
+Intel Core i7-9700F @ 3.00GHz,"13,800",$259.98,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9700F+%40+3.00GHz&id=3465,Desktop,3.0 GHz,4.7 GHz,Cores: 8 Threads: 8 ,Q2 2019,53.08
+Intel Core i9-9900T @ 2.10GHz,"13,664",$439.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9900T+%40+2.10GHz&id=3599,Intel UHD Graphics 630,FCLGA1151-2,2.1 GHz,Turbo Speed: 4.4 GHz,Q4 2019,31.13
+AMD Ryzen 5 PRO 2600,"13,662",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+PRO+2600&id=3306,Desktop,3.4 GHz,3.9 GHz,Cores: 6 Threads: 12 ,Q2 2018,NA
+Intel Core i7-9700 @ 3.00GHz,"13,602",$292.67,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9700+%40+3.00GHz&id=3477,Intel UHD Graphics 630,FCLGA1151-2,3.0 GHz,Turbo Speed: 4.7 GHz,Q2 2019,46.48
+Intel Core i7-10700T @ 2.00GHz,"13,374",$323.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10700T+%40+2.00GHz&id=3792,Intel UHD Graphics 630,FCLGA1200,2.0 GHz,Turbo Speed: 4.5 GHz,Q2 2020,41.41
+AMD Ryzen 5 3500X,"13,372",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3500X&id=3592,Desktop,3.6 GHz,4.1 GHz,Cores: 6 Threads: 6 ,Q4 2019,NA
+Intel Core i5-10500 @ 3.10GHz,"13,318",$239.95,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10500+%40+3.10GHz&id=3749,Intel UHD Graphics 630,FCLGA1200,3.1 GHz,Turbo Speed: 4.5 GHz,Q2 2020,55.50
+AMD Ryzen 5 2600,"13,227",$139.99,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+2600&id=3243,Desktop,3.4 GHz,3.9 GHz,Cores: 6 Threads: 12 ,Q2 2018,94.48
+AMD Ryzen 5 3500,"12,813",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3500&id=3588,Desktop,3.6 GHz,4.1 GHz,Cores: 6 Threads: 6 ,Q4 2019,NA
+AMD Ryzen 3 3300X,"12,797",$261.16,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+3300X&id=3716,Desktop,3.8 GHz,4.3 GHz,Cores: 4 Threads: 8 ,Q2 2020,49.00
+Intel Core i5-10400F @ 2.90GHz,"12,740",$187.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10400F+%40+2.90GHz&id=3767,Desktop,2.9 GHz,4.3 GHz,Cores: 6 Threads: 12 ,Q2 2020,67.77
+Intel Core i5-10400 @ 2.90GHz,"12,637",$179.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10400+%40+2.90GHz&id=3737,Intel UHD Graphics 630,FCLGA1200,2.9 GHz,Turbo Speed: 4.3 GHz,Q2 2020,70.21
+AMD Ryzen 3 3100,"11,764",$119.99,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+3100&id=3715,Desktop,3.6 GHz,3.9 GHz,Cores: 4 Threads: 8 ,Q2 2020,98.04
+AMD Ryzen 3 4300G,"11,714",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+4300G&id=3808,with Radeon Graphics,AM4,3.8 GHz,Turbo Speed: 4.0 GHz,Q2 2020,NA
+AMD Ryzen 3 PRO 4350GE,"11,523",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+PRO+4350GE&id=3791,with Radeon Graphics,AM4,3.5 GHz,Turbo Speed: 4.0 GHz,Q2 2020,NA
+AMD Ryzen 3 PRO 4350G,"11,337",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+PRO+4350G&id=3794,with Radeon Graphics,AM4,3.8 GHz,Turbo Speed: 4.0 GHz,Q2 2020,NA
+Intel Core i5-10600T @ 2.40GHz,"11,330",$213.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10600T+%40+2.40GHz&id=3834,Intel UHD Graphics 630,FCLGA1200,2.4 GHz,Turbo Speed: 4.0 GHz,Q2 2020,53.19
+Intel Core i5-9600KF @ 3.70GHz,"10,901",$205.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9600KF+%40+3.70GHz&id=3443,Desktop,3.7 GHz,4.6 GHz,Cores: 6 Threads: 6 ,Q2 2019,52.92
+Intel Core i7-9700T @ 2.00GHz,"10,885",$323.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9700T+%40+2.00GHz&id=3506,Intel UHD Graphics 630,FCLGA1151-2,2.0 GHz,Turbo Speed: 4.3 GHz,Q2 2019,33.70
+Intel Core i5-9600K @ 3.70GHz,"10,874",$199.94,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9600K+%40+3.70GHz&id=3337,Intel UHD Graphics 630,FCLGA1151-2,3.7 GHz,Turbo Speed: 4.6 GHz,Q4 2018,54.39
+Intel Core i7-8700T @ 2.40GHz,"10,825",$309.29,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8700T+%40+2.40GHz&id=3213,Intel UHD Graphics 630,FCLGA1151-2,2.4 GHz,Turbo Speed: 4.0 GHz,Q1 2018,35.00
+Intel Core i5-10500T @ 2.30GHz,"10,790",$192.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10500T+%40+2.30GHz&id=3768,Intel UHD Graphics 630,FCLGA1200,2.3 GHz,Turbo Speed: 3.8 GHz,Q2 2020,56.20
+Intel Core i5-9600 @ 3.10GHz,"10,741",$237.98,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9600+%40+3.10GHz&id=3554,Intel UHD Graphics 630,FCLGA1151-2,3.1 GHz,Turbo Speed: 4.6 GHz,Q2 2019,45.13
+Intel Core i7-9700TE @ 1.80GHz,"10,680",$323.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9700TE+%40+1.80GHz&id=3619,Intel UHD Graphics 630,1.8 GHz,3.8 GHz,Cores: 8 Threads: 8 ,Q4 2019,33.07
+Intel Core i5-10400T @ 2.00GHz,"10,429",$182.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10400T+%40+2.00GHz&id=3826,Intel UHD Graphics 630,FCLGA1200,2.0 GHz,Turbo Speed: 3.6 GHz,Q2 2020,57.30
+Intel Core i5-9500F @ 3.00GHz,"10,284",$221.93,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9500F+%40+3.00GHz&id=3511,Desktop,3.0 GHz,4.4 GHz,Cores: 6 Threads: 6 ,Q2 2019,46.34
+Intel Core i5-9500 @ 3.00GHz,"9,944",$204.98,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9500+%40+3.00GHz&id=3444,Intel UHD Graphics 630,FCLGA1151-2,3.0 GHz,Turbo Speed: 4.4 GHz,Q2 2019,48.51
+Intel Core i5-8600 @ 3.10GHz,"9,795",$237.95,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8600+%40+3.10GHz&id=3251,Intel UHD Graphics 630,FCLGA1151-2,3.1 GHz,Turbo Speed: 4.3 GHz,Q2 2018,41.16
+AMD Ryzen 5 3350GE,"9,684",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3350GE&id=3804,with Radeon Vega Graphics,3.3 GHz,3.9 GHz,Cores: 4 Threads: 8 ,Q2 2020,NA
+AMD Ryzen 5 2500X,"9,671",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+2500X&id=3410,Quad-Core,AM4,3.6 GHz,Turbo Speed: 4.0 GHz,Q1 2019,NA
+AMD Ryzen 5 PRO 3350GE,"9,643",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+PRO+3350GE&id=3802,with Radeon Vega Graphic,3.3 GHz,3.9 GHz,Cores: 4 Threads: 4 ,Q2 2020,NA
+Intel Core i5-9400F @ 2.90GHz,"9,594",$139.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9400F+%40+2.90GHz&id=3397,FCLGA1151-2,4.1 GHz,6 Threads,Typical TDP: 65  W,Q1 2019,68.53
+AMD Ryzen 5 PRO 3350G,"9,582",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+PRO+3350G&id=3769,with Radeon Vega Graphics,AM4,3.6 GHz,Turbo Speed: 4.0 GHz,Q2 2020,NA
+Intel Core i5-9400 @ 2.90GHz,"9,559",$163.65,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9400+%40+2.90GHz&id=3414,Intel UHD Graphics 630,FCLGA1151-2,2.9 GHz,Turbo Speed: 4.1 GHz,Q1 2019,58.41
+AMD Ryzen 5 PRO 3400G,"9,549",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+PRO+3400G&id=3569,with Radeon Vega Graphics,AM4,3.7 GHz,Turbo Speed: 4.2 GHz,Q4 2019,NA
+Intel Core i5-8500 @ 3.00GHz,"9,484",$262.36,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8500+%40+3.00GHz&id=3223,Intel UHD Graphics 630,FCLGA1151-2,3.0 GHz,Turbo Speed: 4.1 GHz,Q1 2018,36.15
+AMD Ryzen 5 3400G,"9,425",$144.99,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3400G&id=3498,with Radeon Vega Graphics,AM4,3.7 GHz,Turbo Speed: 4.2 GHz,Q2 2019,65.00
+Intel Core i5-9600T @ 2.30GHz,"9,406",$213.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9600T+%40+2.30GHz&id=3602,Intel UHD Graphics 630,FCLGA1151-2,2.3 GHz,Turbo Speed: 3.9 GHz,Q4 2019,44.16
+Intel Core i3-10300 @ 3.70GHz,"9,322",$179.08,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10300+%40+3.70GHz&id=3765,Intel UHD Graphics 630,FCLGA1200,3.7 GHz,Turbo Speed: 4.4 GHz,Q2 2020,52.05
+Intel Core i7-9850HL @ 1.90GHz,"9,112",$395.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9850HL+%40+1.90GHz&id=3621,Intel UHD Graphics 630,1.9 GHz,4.1 GHz,Cores: 6 Threads: 12 ,Q4 2019,23.07
+Intel Core i5-8600T @ 2.30GHz,"8,946",$366.99*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8600T+%40+2.30GHz&id=3241,Intel UHD Graphics 630,FCLGA1151-2,2.3 GHz,Turbo Speed: 3.7 GHz,Q2 2018,24.38
+Intel Core i3-10100 @ 3.60GHz,"8,928",$114.95,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10100+%40+3.60GHz&id=3717,Intel UHD Graphics 630,FCLGA1200,3.6 GHz,Turbo Speed: 4.3 GHz,Q2 2020,77.67
+Intel Core i5-10300H @ 2.50GHz,"8,876",$250.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10300H+%40+2.50GHz&id=3646,Intel UHD Graphics,2.5 GHz,4.5 GHz,Cores: 4 Threads: 8 ,Q1 2020,35.50
+AMD Ryzen 5 2400G,"8,762",$267.00,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+2400G&id=3183,with Radeon Vega Graphics,AM4,3.6 GHz,Turbo Speed: 3.9 GHz,Q1 2018,32.82
+AMD Ryzen 5 3400GE,"8,565",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3400GE&id=3690,with Radeon Vega Graphics,AM4,3.3 GHz,Turbo Speed: 4.0 GHz,Q2 2020,NA
+Intel Core i3-10300T @ 3.00GHz,"8,355",$143.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10300T+%40+3.00GHz&id=3838,Intel UHD Graphics 630,FCLGA1200,3.0 GHz,Turbo Speed: 3.9 GHz,Q2 2020,58.42
+AMD Ryzen 5 PRO 2400G,"8,348",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+PRO+2400G&id=3265,with Radeon Vega Graphics,AM4,3.6 GHz,Turbo Speed: 3.9 GHz,Q2 2018,NA
+AMD Ryzen 5 PRO 3400GE,"8,174",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+PRO+3400GE&id=3565,w/ Radeon Vega Graphics,AM4,3.3 GHz,Turbo Speed: 4.0 GHz,Q4 2019,NA
+Intel Core i5-9500T @ 2.20GHz,"8,148",$192.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9500T+%40+2.20GHz&id=3454,Intel UHD Graphics 630,FCLGA1151-2,2.2 GHz,Turbo Speed: 3.7 GHz,Q2 2019,42.44
+AMD Ryzen Embedded V1756B,"8,133",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Embedded+V1756B&id=3574,with Radeon Vega Gfx,FP5,3.3 GHz,Turbo Speed: 3.6 GHz,Q4 2019,NA
+Intel Core i3-9350KF @ 4.00GHz,"7,913",$164.61,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-9350KF+%40+4.00GHz&id=3459,Desktop,4.0 GHz,4.6 GHz,Cores: 4 Threads: 4 ,Q2 2019,48.07
+Intel Core i5-8500T @ 2.10GHz,"7,899",$217.58,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8500T+%40+2.10GHz&id=3231,Intel UHD Graphics 630,FCLGA1151-2,2.1 GHz,Turbo Speed: 3.5 GHz,Q2 2018,36.30
+AMD Ryzen 3 2300X,"7,863",$178.09*,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+2300X&id=3395,Desktop,3.5 GHz,4.0 GHz,Cores: 4 Threads: 4 ,Q1 2019,44.15
+Intel Core i5-9400T @ 1.80GHz,"7,815",$182.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9400T+%40+1.80GHz&id=3513,Intel UHD Graphics 630,FCLGA1151-2,1.8 GHz,Turbo Speed: 3.4 GHz,Q2 2019,42.94
+Intel Core i3-9350K @ 4.00GHz,"7,797",$184.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-9350K+%40+4.00GHz&id=3709,Intel UHD Graphics 630,FCLGA1151,4.0 GHz,Turbo Speed: 4.6 GHz,Q2 2020,42.38
+AMD Athlon Gold PRO 3150G,"7,702",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+Gold+PRO+3150G&id=3800,with Radeon Graphics,AM4,3.5 GHz,Turbo Speed: 3.9 GHz,Q2 2020,NA
+AMD Ryzen 5 PRO 2400GE,"7,635",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+PRO+2400GE&id=3266,w/ Radeon Vega Graphics,AM4,3.2 GHz,Turbo Speed: 3.8 GHz,Q2 2018,NA
+AMD Ryzen 3 3200GE,"7,631",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+3200GE&id=3779,with Radeon Vega Graphics,AM4,3.3 GHz,Turbo Speed: 3.8 GHz,Q2 2020,NA
+AMD Ryzen 5 2400GE,"7,619",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+2400GE&id=3284,with Radeon Vega Graphics,AM4,3.2 GHz,Turbo Speed: 3.8 GHz,Q2 2018,NA
+AMD Athlon Gold PRO 3150GE,"7,578",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+Gold+PRO+3150GE&id=3803,with Radeon Graphics,AM4,3.3 GHz,Turbo Speed: 3.8 GHz,Q2 2020,NA
+Intel Core i3-9320 @ 3.70GHz,"7,358",$162.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-9320+%40+3.70GHz&id=3539,Intel UHD Graphics 630,FCLGA1151-2,3.7 GHz,Turbo Speed: 4.4 GHz,Q2 2019,45.42
+Intel Core i5-8400T @ 1.70GHz,"7,356",$188.58,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8400T+%40+1.70GHz&id=3260,Intel UHD Graphics 630,FCLGA1151-2,1.7 GHz,Turbo Speed: 3.3 GHz,Q2 2018,39.01
+Intel Core i3-9300 @ 3.70GHz,"7,267",$189.99*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-9300+%40+3.70GHz&id=3510,Intel UHD Graphics 630,FCLGA1151-2,3.7 GHz,Turbo Speed: 4.3 GHz,Q2 2019,38.25
+AMD Ryzen 3 3200G,"7,249",$99.99,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+3200G&id=3497,with Radeon Vega Graphics,AM4,3.6 GHz,Turbo Speed: 4.0 GHz,Q2 2019,72.50
+AMD Ryzen 3 PRO 3200G,"7,030",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+PRO+3200G&id=3570,with Radeon Vega Graphics,AM4,3.6 GHz,Turbo Speed: 4.0 GHz,Q4 2019,NA
+Intel Core i3-9100F @ 3.60GHz,"6,825",$87.60,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-9100F+%40+3.60GHz&id=3461,Desktop,3.6 GHz,4.2 GHz,Cores: 4 Threads: 4 ,Q2 2019,77.91
+AMD Ryzen 3 2200G,"6,747",$210.02,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+2200G&id=3186,with Radeon Vega 8 Graphics,AM4,3.5 GHz,Turbo Speed: 3.7 GHz,Q1 2018,32.13
+Intel Core i3-9100 @ 3.60GHz,"6,727",$116.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-9100+%40+3.60GHz&id=3479,Intel UHD Graphics 630,FCLGA1151-2,3.6 GHz,Turbo Speed: 4.2 GHz,Q2 2019,57.50
+AMD Ryzen 3 PRO 2200G,"6,717",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+PRO+2200G&id=3216,with Radeon Vega Graphics,AM4,3.5 GHz,Turbo Speed: 3.7 GHz,Q1 2018,NA
+AMD Ryzen 3 PRO 2200GE,"6,433",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+PRO+2200GE&id=3267,w/ Radeon Vega 8 Graphics,AM4,3.2 GHz,Turbo Speed: 3.6 GHz,Q2 2018,NA
+Intel Core i3-9300T @ 3.20GHz,"6,367",$143.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-9300T+%40+3.20GHz&id=3509,Intel UHD Graphics 630,FCLGA1151-2,3.2 GHz,Turbo Speed: 3.8 GHz,Q2 2019,44.52
+Intel Core i3-8300 @ 3.70GHz,"6,317",$151.15,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-8300+%40+3.70GHz&id=3280,Intel UHD Graphics 630,FCLGA1151-2,3.7 GHz,Cores: 4 Threads: 4 ,Q2 2018,41.79
+AMD Ryzen 3 2200GE,"6,292",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+2200GE&id=3301,with Radeon Vega 8 Graphics,AM4,3.2 GHz,Turbo Speed: 3.6 GHz,Q2 2018,NA
+Intel Core i3-8300T @ 3.20GHz,"5,827",$155.20*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-8300T+%40+3.20GHz&id=3285,Intel UHD Graphics 630,FCLGA1151-2,3.2 GHz,Cores: 4 Threads: 4 ,Q2 2018,37.54
+Intel Core i3-9100T @ 3.10GHz,"5,574",$122.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-9100T+%40+3.10GHz&id=3488,Intel UHD Graphics 630,FCLGA1151-2,3.1 GHz,Turbo Speed: 3.7 GHz,Q2 2019,45.69
+AMD Ryzen Embedded V1404I,"5,491",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Embedded+V1404I&id=3661,with Radeon Vega Gfx,2.0 GHz,3.6 GHz,Cores: 4 Threads: 8 ,Q1 2020,NA
+Intel Core i5-4670R @ 3.00GHz,"5,335",$276.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4670R+%40+3.00GHz&id=3294,Intel Iris Pro Graphics 5200,FCBGA1364,3.0 GHz,Turbo Speed: 3.7 GHz,Q2 2018,19.33
+Intel Core i3-8100T @ 3.10GHz,"5,299",$129.00,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-8100T+%40+3.10GHz&id=3304,Intel UHD Graphics 630,FCLGA1151-2,3.1 GHz,Cores: 4 Threads: 4 ,Q2 2018,41.08
+AMD Athlon 300GE,"4,905",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+300GE&id=3629,with Radeon Vega Graphics,AM4,3.4 GHz,Cores: 2 Threads: 4 ,Q4 2019,NA
+Intel Core i5-4470S @ 3.00GHz,"4,742",NA,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4470S+%40+3.00GHz&id=3840,Desktop,3.0 GHz,4 Threads,Typical TDP: 65  W,Q2 2020,NA
+AMD Athlon Silver PRO 3125GE,"4,701",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+Silver+PRO+3125GE&id=3801,w/ Radeon Graphics,AM4,3.4 GHz,Cores: 2 Threads: 4 ,Q2 2020,NA
+AMD Athlon 240GE,"4,604",$132.90,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+240GE&id=3394,with Radeon Vega Graphics,AM4,3.5 GHz,Cores: 2 Threads: 4 ,Q1 2019,34.64
+AMD Ryzen Embedded R1606G,"4,544",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Embedded+R1606G&id=3659,with Radeon Vega Gfx,FP5,2.6 GHz,Turbo Speed: 3.5 GHz,Q1 2020,NA
+AMD Athlon 3000G,"4,466",$54.99*,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+3000G&id=3614,with Radeon Vega 3 Graphics,AM4,3.5 GHz,Cores: 2 Threads: 4 ,Q4 2019,81.21
+AMD Athlon PRO 300GE,"4,337",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+PRO+300GE&id=3571,w/ Radeon Vega Graphics,AM4,3.4 GHz,Cores: 2 Threads: 4 ,Q4 2019,NA
+AMD Ryzen 3 PRO 2100GE,"4,308",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+PRO+2100GE&id=3452,w/ Radeon Vega Graphics,AM4,3.2 GHz,Cores: 2 Threads: 4 ,Q2 2019,NA
+Intel Pentium Gold G6400 @ 4.00GHz,"4,243",$64.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6400+%40+4.00GHz&id=3805,Intel UHD Graphics 610,FCLGA1200,4.0 GHz,Cores: 2 Threads: 4 ,Q2 2020,65.29
+AMD Athlon 200GE,"4,213",$77.86*,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+200GE&id=3325,with Radeon Vega 3 Graphics,AM4,3.2 GHz,Turbo Speed: 3.2 GHz,Q2 2018,54.11
+Intel Pentium Gold G6500 @ 4.10GHz,"4,208",$75.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6500+%40+4.10GHz&id=3857,Intel UHD Graphics 630,FCLGA1200,4.1 GHz,Cores: 2 Threads: 4 ,Q4 2020,56.10
+Intel Pentium Gold G5600F @ 3.90GHz,"4,161",NA,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G5600F+%40+3.90GHz&id=3568,No Integrated Graphics,FCLGA1151-2,3.9 GHz,Cores: 2 Threads: 4 ,Q4 2019,NA
+AMD Athlon PRO 200GE,"4,139",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+PRO+200GE&id=3269,w/ Radeon Vega Graphics,AM4,3.2 GHz,Cores: 2 Threads: 4 ,Q2 2018,NA
+Intel Pentium Gold G5620 @ 4.00GHz,"4,102",$197.12*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G5620+%40+4.00GHz&id=3626,Intel UHD Graphics 630,FCLGA1151-2,4.0 GHz,Cores: 2 Threads: 4 ,Q4 2019,20.81
+Intel Pentium Silver J5040 @ 2.00GHz,"3,724",NA,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Silver+J5040+%40+2.00GHz&id=3665,Intel UHD Graphics 605,FCBGA1090,2.0 GHz,Turbo Speed: 3.2 GHz,Q1 2020,NA
+Intel Pentium Gold G5400 @ 3.70GHz,"3,722",$69.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G5400+%40+3.70GHz&id=3248,Intel UHD Graphics 610,FCLGA1151-2,3.7 GHz,Cores: 2 Threads: 4 ,Q2 2018,53.17
+Intel Pentium Gold G5420T @ 3.20GHz,"3,716",$64.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G5420T+%40+3.20GHz&id=3589,Intel UHD Graphics 610,FCLGA1151-2,3.2 GHz,Cores: 2 Threads: 4 ,Q4 2019,58.06
+Intel Pentium Gold G5500 @ 3.80GHz,"3,680",$94.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G5500+%40+3.80GHz&id=3271,Intel UHD Graphics 630,FCLGA1151-2,3.8 GHz,Cores: 2 Threads: 4 ,Q2 2018,38.74
+Intel Pentium Gold G5600 @ 3.90GHz,"3,641",$142.93,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G5600+%40+3.90GHz&id=3261,Intel UHD Graphics 630,FCLGA1151-2,3.9 GHz,Cores: 2 Threads: 4 ,Q2 2018,25.47
+Intel Pentium Gold G5420 @ 3.80GHz,"3,446",$64.15,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G5420+%40+3.80GHz&id=3471,Intel UHD Graphics 610,FCLGA1151-2,3.8 GHz,Cores: 2 Threads: 4 ,Q2 2019,53.71
+AMD Phenom II X6 1405T,"3,335",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X6+1405T&id=3165,Desktop,3.0 GHz,6 Threads,Typical TDP: 95  W,Q1 2018,NA
+Intel Pentium Gold G5500T @ 3.20GHz,"3,234",$75.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G5500T+%40+3.20GHz&id=3264,Intel UHD Graphics 630,FCLGA1151-2,3.2 GHz,Cores: 2 Threads: 4 ,Q2 2018,43.13
+Intel Core i3-4370T @ 3.30GHz,"3,225",$138.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-4370T+%40+3.30GHz&id=3117,Intel HD 4600,FCLGA1150,3.3 GHz,Cores: 2 Threads: 4 ,Q4 2017,23.37
+Intel Pentium Silver J5005 @ 1.50GHz,"3,206",$195.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Silver+J5005+%40+1.50GHz&id=3144,Intel UHD Graphics 605,FCBGA1090,1.5 GHz,Turbo Speed: 2.8 GHz,Q4 2017,16.36
+Intel Celeron J4125 @ 2.00GHz,"3,187",NA,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+J4125+%40+2.00GHz&id=3667,Intel UHD Graphics 600,FCBGA1090,2.0 GHz,Turbo Speed: 2.7 GHz,Q1 2020,NA
+AMD A10-9700E,"3,151",$241.00*,https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-9700E&id=3133,"RADEON R7, 10 COMPUTE CORES 4C+6G",AM4,3.0 GHz,Turbo Speed: 3.5 GHz,Q4 2017,13.07
+Intel Celeron J4105 @ 1.50GHz,"2,972",$107.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+J4105+%40+1.50GHz&id=3159,Intel UHD Graphics 600,FCBGA1090,1.5 GHz,Turbo Speed: 2.5 GHz,Q1 2018,27.78
+AMD Athlon X4 830,"2,901",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+X4+830&id=3190,Desktop,3.0 GHz,34.0 GHz,Cores: 4 (in 2 physical modules) ,Q1 2018,NA
+Intel Celeron G5905 @ 3.50GHz,"2,862",$49.94,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G5905+%40+3.50GHz&id=3848,Intel UHD Graphics 610,FCLGA1200,3.5 GHz,Cores: 2 Threads: 2 ,Q2 2020,57.31
+Intel Celeron G5900 @ 3.40GHz,"2,759",$54.99,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G5900+%40+3.40GHz&id=3761,Intel UHD Graphics 610,FCLGA1200,3.4 GHz,Cores: 2 Threads: 2 ,Q2 2020,50.17
+Intel Celeron J4115 @ 1.80GHz,"2,749",NA,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+J4115+%40+1.80GHz&id=3679,Desktop,2.5 GHz,4 Threads,NA,Q1 2020,NA
+Intel Celeron G4930 @ 3.20GHz,"2,562",$40.09,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G4930+%40+3.20GHz&id=3557,Intel UHD Graphics 610,FCLGA1151-2,3.2 GHz,Cores: 2 Threads: 2 ,Q2 2019,63.92
+Intel Celeron J3455E @ 1.50GHz,"2,457",NA,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+J3455E+%40+1.50GHz&id=3833,Intel HD Graphics 500,FCBGA1296,1.5 GHz,Turbo Speed: 2.3 GHz,Q2 2020,NA
+Intel Celeron G4900 @ 3.10GHz,"2,408",$160.54,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G4900+%40+3.10GHz&id=3275,Intel UHD Graphics 610,FCLGA1151-2,3.1 GHz,Cores: 2 Threads: 2 ,Q2 2018,15.00
+Intel Celeron G4920 @ 3.20GHz,"2,284",$60.93,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G4920+%40+3.20GHz&id=3305,Intel UHD Graphics 610,FCLGA1151-2,3.2 GHz,Cores: 2 Threads: 2 ,Q2 2018,37.49
+Intel Celeron G4900T @ 2.90GHz,"2,255",$42.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G4900T+%40+2.90GHz&id=3214,Intel UHD Graphics 610,FCLGA1151-2,2.9 GHz,Cores: 2 Threads: 2 ,Q1 2018,53.70
+Intel Celeron G4930T @ 3.00GHz,"2,224",$42.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G4930T+%40+3.00GHz&id=3788,Intel UHD Graphics 610,FCLGA1151,3.0 GHz,Cores: 2 Threads: 2 ,Q2 2020,52.95
+Intel Celeron G3930TE @ 2.70GHz,"2,218",$42.00*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G3930TE+%40+2.70GHz&id=3522,Intel HD Graphics 610,FCLGA1151,2.7 GHz,Cores: 2 Threads: 2 ,Q2 2019,52.82
+Intel Celeron G3930T @ 2.70GHz,"2,109",$39.95*,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G3930T+%40+2.70GHz&id=3353,Intel HD Graphics 610,FCLGA1151,2.7 GHz,Cores: 2 Threads: 2 ,Q4 2018,52.79
+Intel Core2 Extreme Q9200 @ 2.40GHz,"2,011",NA,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Extreme+Q9200+%40+2.40GHz&id=3615,Desktop,4 Threads,2.7 GHz,NA,Q4 2019,NA
+Intel Celeron 4305UE @ 2.00GHz,"1,950",NA,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+4305UE+%40+2.00GHz&id=3628,Intel UHD Graphics 610,2.0 GHz,2 Threads,Typical TDP: 15  W,Q4 2019,NA
+Intel Celeron J4025 @ 2.00GHz,"1,946",NA,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+J4025+%40+2.00GHz&id=3668,Intel UHD Graphics 600,FCBGA1090,2.0 GHz,Turbo Speed: 2.9 GHz,Q1 2020,NA
+AMD A6-7480,"1,859",$43.99*,https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-7480&id=3436,"Radeon R5, 8 Compute Cores 2C+6G",FM2+,3.5 GHz,Turbo Speed: 3.8 GHz,Q2 2019,42.25
+AMD A6-9500E,"1,841",$98.10,https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-9500E&id=3330,"RADEON R5, 6 COMPUTE CORES 2C+4G",AM4,3.0 GHz,Turbo Speed: 3.4 GHz,Q4 2018,18.76
+AMD A9-9430,"1,684",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+A9-9430&id=3143,"RADEON R5, 5 COMPUTE CORES 2C+3G",3.2 GHz,3.5 GHz,Cores: 2 (in 2 physical modules) ,Q4 2017,NA
+Intel Celeron J4005 @ 2.00GHz,"1,658",$128.97,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+J4005+%40+2.00GHz&id=3200,Intel UHD Graphics 600,FCBGA1090,2.0 GHz,Turbo Speed: 2.7 GHz,Q1 2018,12.85
+Intel Pentium G2120T @ 2.70GHz,"1,613",NA,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G2120T+%40+2.70GHz&id=3684,Intel HD Graphics for 3rd Generation Intel Processors,FCLGA1155,2.7 GHz,Cores: 2 Threads: 2 ,Q1 2020,NA
+AMD Sempron 240,"1,278",$38.00,https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+240&id=3327,Desktop,2.9 GHz,3.3 GHz,Cores: 2 (in 2 physical modules) ,Q4 2018,33.62
+AMD R-272F APU,"1,215",NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+R-272F+APU&id=3616,FS1,3.2 GHz,2 (in 2 physical modules),Typical TDP: 35  W,Q4 2019,NA
+AMD E2-9030,922,NA,https://www.cpubenchmark.net/cpu.php?cpu=AMD+E2-9030&id=3390,"RADEON R2, 4 COMPUTE CORES 2C+2G",BGA (FT4),2.0 GHz,Turbo Speed: 2.2 GHz,Q1 2019,NA
+Intel Pentium 4 3.83GHz,154,NA,https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+4+3.83GHz&id=3256,Desktop,1 Threads,2.0 GHz,NA,Q2 2018,NA

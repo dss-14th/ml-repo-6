@@ -1,0 +1,1275 @@
+2020-10-29 19:26:37,368:INFO:PyCaret Clustering Module
+2020-10-29 19:26:37,368:INFO:version 2.1.2
+2020-10-29 19:26:37,368:INFO:Initializing setup()
+2020-10-29 19:26:37,368:INFO:USI: be70
+2020-10-29 19:26:37,368:INFO:setup(data=(1033, 9), categorical_features=None, categorical_imputation=constant, ordinal_features=None, high_cardinality_features=None, 
+                    numeric_features=None, numeric_imputation=mean, date_features=None, ignore_features=None, normalize=False,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, group_features=None,
+                    group_names=None, supervised=False, supervised_target=None, n_jobs=-1, html=True, session_id=None, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2020-10-29 19:26:37,368:INFO:Checking environment
+2020-10-29 19:26:37,368:INFO:python_version: 3.7.9
+2020-10-29 19:26:37,368:INFO:python_build: ('default', 'Aug 31 2020 07:22:35')
+2020-10-29 19:26:37,368:INFO:machine: x86_64
+2020-10-29 19:26:37,379:INFO:platform: Darwin-19.6.0-x86_64-i386-64bit
+2020-10-29 19:26:37,393:INFO:Memory: svmem(total=17179869184, available=6485307392, percent=62.3, used=9194553344, free=112656384, active=6376169472, inactive=5767258112, wired=2818383872)
+2020-10-29 19:26:37,393:INFO:Physical Core: 6
+2020-10-29 19:26:37,393:INFO:Logical Core: 12
+2020-10-29 19:26:37,393:INFO:Checking libraries
+2020-10-29 19:26:37,393:INFO:pd==0.25.3
+2020-10-29 19:26:37,393:INFO:numpy==1.18.5
+2020-10-29 19:26:37,813:INFO:sklearn==0.22.2.post1
+2020-10-29 19:26:37,814:INFO:kmodes==0.10.2
+2020-10-29 19:26:38,583:INFO:mlflow==1.11.0
+2020-10-29 19:26:38,584:INFO:Checking Exceptions
+2020-10-29 19:26:38,584:INFO:Preloading libraries
+2020-10-29 19:26:38,626:INFO:Preparing display monitor
+2020-10-29 19:26:38,640:INFO:Importing libraries
+2020-10-29 19:26:38,640:INFO:Declaring global variables
+2020-10-29 19:26:38,640:INFO:Copying data for preprocessing
+2020-10-29 19:26:38,645:INFO:Declaring preprocessing parameters
+2020-10-29 19:26:38,645:INFO:Importing preprocessing module
+2020-10-29 19:26:39,365:INFO:Creating preprocessing pipeline
+2020-10-29 19:26:59,572:INFO:Preprocessing pipeline created successfully
+2020-10-29 19:26:59,572:INFO:Creating grid variables
+2020-10-29 19:26:59,573:INFO:Creating global containers
+2020-10-29 19:26:59,783:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='dummy_target',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_L...
+                                                    target='dummy_target')),
+                ('feature_time',
+                 Make_Time_Features(list_of_features=None, time_feature=[])),
+                ('group', Empty()), ('scaling', Empty()),
+                ('P_transform', Empty()), ('binn', Empty()),
+                ('fix_perfect', Empty()), ('rem_outliers', Empty()),
+                ('dummy', Dummify(target='dummy_target')),
+                ('clean_names', Clean_Colum_Names()), ('fix_multi', Empty()),
+                ('pca', Empty())],
+         verbose=False)
+2020-10-29 19:26:59,783:INFO:setup() succesfully completed......................................
+2020-10-29 19:27:46,711:INFO:Initializing create_model()
+2020-10-29 19:27:46,711:INFO:create_model(model=kmeans, num_clusters=None, ground_truth=None, verbose=True, system=True)
+2020-10-29 19:27:46,711:INFO:Checking exceptions
+2020-10-29 19:27:46,711:INFO:Preloading libraries
+2020-10-29 19:27:46,711:INFO:Setting num_cluster param
+2020-10-29 19:27:46,712:INFO:Preparing display monitor
+2020-10-29 19:27:46,726:INFO:Importing untrained model
+2020-10-29 19:27:46,726:INFO:K-Means Clustering Imported succesfully
+2020-10-29 19:27:46,731:INFO:Fitting Model
+2020-10-29 19:27:48,090:INFO:Evaluating Metrics
+2020-10-29 19:27:48,156:INFO:Creating Metrics dataframe
+2020-10-29 19:27:48,165:INFO:KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='auto',
+       random_state=1802, tol=0.0001, verbose=0)
+2020-10-29 19:27:48,165:INFO:create_models() succesfully completed......................................
+2020-10-30 13:40:01,939:INFO:PyCaret Clustering Module
+2020-10-30 13:40:01,940:INFO:version 2.1.2
+2020-10-30 13:40:01,940:INFO:Initializing setup()
+2020-10-30 13:40:01,940:INFO:USI: a52d
+2020-10-30 13:40:01,940:INFO:setup(data=(1033, 9), categorical_features=None, categorical_imputation=constant, ordinal_features=None, high_cardinality_features=None, 
+                    numeric_features=None, numeric_imputation=mean, date_features=None, ignore_features=None, normalize=False,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, group_features=None,
+                    group_names=None, supervised=False, supervised_target=None, n_jobs=-1, html=True, session_id=None, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2020-10-30 13:40:01,940:INFO:Checking environment
+2020-10-30 13:40:01,940:INFO:python_version: 3.7.9
+2020-10-30 13:40:01,940:INFO:python_build: ('default', 'Aug 31 2020 07:22:35')
+2020-10-30 13:40:01,940:INFO:machine: x86_64
+2020-10-30 13:40:01,948:INFO:platform: Darwin-19.6.0-x86_64-i386-64bit
+2020-10-30 13:40:01,963:INFO:Memory: svmem(total=17179869184, available=6923317248, percent=59.7, used=9123123200, free=521957376, active=6406184960, inactive=5538623488, wired=2716938240)
+2020-10-30 13:40:01,963:INFO:Physical Core: 6
+2020-10-30 13:40:01,963:INFO:Logical Core: 12
+2020-10-30 13:40:01,963:INFO:Checking libraries
+2020-10-30 13:40:01,963:INFO:pd==0.25.3
+2020-10-30 13:40:01,963:INFO:numpy==1.18.5
+2020-10-30 13:40:02,426:INFO:sklearn==0.22.2.post1
+2020-10-30 13:40:02,427:INFO:kmodes==0.10.2
+2020-10-30 13:40:03,103:INFO:mlflow==1.11.0
+2020-10-30 13:40:03,103:INFO:Checking Exceptions
+2020-10-30 13:40:03,103:INFO:Preloading libraries
+2020-10-30 13:40:03,143:INFO:Preparing display monitor
+2020-10-30 13:40:03,156:INFO:Importing libraries
+2020-10-30 13:40:03,156:INFO:Declaring global variables
+2020-10-30 13:40:03,156:INFO:Copying data for preprocessing
+2020-10-30 13:40:03,161:INFO:Declaring preprocessing parameters
+2020-10-30 13:40:03,161:INFO:Importing preprocessing module
+2020-10-30 13:40:03,925:INFO:Creating preprocessing pipeline
+2020-10-30 13:40:06,402:INFO:Preprocessing pipeline created successfully
+2020-10-30 13:40:06,402:INFO:Creating grid variables
+2020-10-30 13:40:06,404:INFO:Creating global containers
+2020-10-30 13:40:06,596:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='dummy_target',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_L...
+                                                    target='dummy_target')),
+                ('feature_time',
+                 Make_Time_Features(list_of_features=None, time_feature=[])),
+                ('group', Empty()), ('scaling', Empty()),
+                ('P_transform', Empty()), ('binn', Empty()),
+                ('fix_perfect', Empty()), ('rem_outliers', Empty()),
+                ('dummy', Dummify(target='dummy_target')),
+                ('clean_names', Clean_Colum_Names()), ('fix_multi', Empty()),
+                ('pca', Empty())],
+         verbose=False)
+2020-10-30 13:40:06,596:INFO:setup() succesfully completed......................................
+2020-10-30 13:40:09,664:INFO:Initializing create_model()
+2020-10-30 13:40:09,664:INFO:create_model(model=kmeans, num_clusters=None, ground_truth=None, verbose=True, system=True)
+2020-10-30 13:40:09,664:INFO:Checking exceptions
+2020-10-30 13:40:09,664:INFO:Preloading libraries
+2020-10-30 13:40:09,664:INFO:Setting num_cluster param
+2020-10-30 13:40:09,664:INFO:Preparing display monitor
+2020-10-30 13:40:09,679:INFO:Importing untrained model
+2020-10-30 13:40:09,679:INFO:K-Means Clustering Imported succesfully
+2020-10-30 13:40:09,684:INFO:Fitting Model
+2020-10-30 13:40:10,936:INFO:Evaluating Metrics
+2020-10-30 13:40:10,995:INFO:Creating Metrics dataframe
+2020-10-30 13:40:11,003:INFO:KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='auto',
+       random_state=4452, tol=0.0001, verbose=0)
+2020-10-30 13:40:11,003:INFO:create_models() succesfully completed......................................
+2020-10-30 13:40:44,792:INFO:Initializing tune_model()
+2020-10-30 13:40:44,792:INFO:tune_model(model=kmodes, supervised_target=None, estimator=None, optimize=None, custom_grid=None, fold=10, verbose=True)
+2020-10-30 13:40:44,792:INFO:Checking exceptions
+2020-10-30 13:41:01,863:INFO:Initializing tune_model()
+2020-10-30 13:41:01,864:INFO:tune_model(model=kmodes, supervised_target=group, estimator=None, optimize=None, custom_grid=None, fold=10, verbose=True)
+2020-10-30 13:41:01,864:INFO:Checking exceptions
+2020-10-30 13:41:01,864:INFO:Preloading libraries
+2020-10-30 13:41:01,864:INFO:Preparing display monitor
+2020-10-30 13:41:01,885:INFO:Importing libraries
+2020-10-30 13:41:02,093:INFO:Copying environment variables
+2020-10-30 13:41:02,305:INFO:Objective : Regression
+2020-10-30 13:41:02,306:INFO:Defining Model Name
+2020-10-30 13:41:02,306:INFO:Defining Supervised Estimator
+2020-10-30 13:41:02,306:INFO:Defining Optimizer
+2020-10-30 13:41:02,306:INFO:Optimize: R2
+2020-10-30 13:41:02,306:INFO:Defining Tuning Grid
+2020-10-30 13:41:02,306:INFO:Pre-defined Grid used
+2020-10-30 13:41:02,310:INFO:Defining setup variables for preprocessing
+2020-10-30 13:41:02,311:INFO:SubProcess setup() called
+2020-10-30 13:41:02,312:INFO:PyCaret Clustering Module
+2020-10-30 13:41:02,312:INFO:version 2.1.2
+2020-10-30 13:41:02,312:INFO:Initializing setup()
+2020-10-30 13:41:02,312:INFO:USI: 4768
+2020-10-30 13:41:02,312:INFO:setup(data=(1033, 9), categorical_features=[], categorical_imputation=constant, ordinal_features=None, high_cardinality_features=None, 
+                    numeric_features=[], numeric_imputation=mean, date_features=[], ignore_features=[], normalize=False,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=0.99, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=[],
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, group_features=None,
+                    group_names=None, supervised=True, supervised_target=group, n_jobs=-1, html=True, session_id=4452, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=False, profile=False)
+2020-10-30 13:41:02,312:INFO:Checking environment
+2020-10-30 13:41:02,312:INFO:python_version: 3.7.9
+2020-10-30 13:41:02,312:INFO:python_build: ('default', 'Aug 31 2020 07:22:35')
+2020-10-30 13:41:02,312:INFO:machine: x86_64
+2020-10-30 13:41:02,312:INFO:platform: Darwin-19.6.0-x86_64-i386-64bit
+2020-10-30 13:41:02,312:INFO:Memory: svmem(total=17179869184, available=6713786368, percent=60.9, used=9332330496, free=22368256, active=6695546880, inactive=6183776256, wired=2636783616)
+2020-10-30 13:41:02,313:INFO:Physical Core: 6
+2020-10-30 13:41:02,313:INFO:Logical Core: 12
+2020-10-30 13:41:02,313:INFO:Checking libraries
+2020-10-30 13:41:02,313:INFO:pd==0.25.3
+2020-10-30 13:41:02,313:INFO:numpy==1.18.5
+2020-10-30 13:41:02,313:INFO:sklearn==0.22.2.post1
+2020-10-30 13:41:02,313:INFO:kmodes==0.10.2
+2020-10-30 13:41:02,313:INFO:mlflow==1.11.0
+2020-10-30 13:41:02,313:INFO:Checking Exceptions
+2020-10-30 13:41:02,313:INFO:Preloading libraries
+2020-10-30 13:41:02,313:INFO:Preparing display monitor
+2020-10-30 13:41:02,319:INFO:Importing libraries
+2020-10-30 13:41:02,319:INFO:Declaring global variables
+2020-10-30 13:41:02,319:INFO:Copying data for preprocessing
+2020-10-30 13:41:02,321:INFO:Declaring preprocessing parameters
+2020-10-30 13:41:02,321:INFO:Importing preprocessing module
+2020-10-30 13:41:02,321:INFO:Creating preprocessing pipeline
+2020-10-30 13:41:02,435:INFO:Preprocessing pipeline created successfully
+2020-10-30 13:41:02,435:INFO:Creating grid variables
+2020-10-30 13:41:02,436:INFO:Creating global containers
+2020-10-30 13:41:02,442:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=False, features_todrop=[],
+                                      ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='dummy_target',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_...
+                ('feature_time',
+                 Make_Time_Features(list_of_features=None, time_feature=[])),
+                ('group', Empty()), ('scaling', Empty()),
+                ('P_transform', Empty()),
+                ('binn', Binning(features_to_discretize=[])),
+                ('fix_perfect', Empty()), ('rem_outliers', Empty()),
+                ('dummy', Dummify(target='dummy_target')),
+                ('clean_names', Clean_Colum_Names()), ('fix_multi', Empty()),
+                ('pca', Empty())],
+         verbose=False)
+2020-10-30 13:41:02,442:INFO:setup() succesfully completed......................................
+2020-10-30 13:41:02,443:INFO:SubProcess setup() end
+2020-10-30 13:41:02,443:INFO:Fitting Model with num_clusters = 4
+2020-10-30 13:41:02,447:INFO:SubProcess create_model() called==================================
+2020-10-30 13:41:02,448:INFO:Initializing create_model()
+2020-10-30 13:41:02,448:INFO:create_model(model=kmodes, num_clusters=4, ground_truth=None, verbose=False, system=False)
+2020-10-30 13:41:02,448:INFO:Checking exceptions
+2020-10-30 13:41:02,448:INFO:Preloading libraries
+2020-10-30 13:41:02,448:INFO:Setting num_cluster param
+2020-10-30 13:41:02,448:INFO:Preparing display monitor
+2020-10-30 13:41:02,455:INFO:Importing untrained model
+2020-10-30 13:41:02,457:INFO:K-Modes Clustering Imported succesfully
+2020-10-30 13:41:02,458:INFO:Fitting Model
+2020-10-30 13:41:07,400:INFO:Evaluating Metrics
+2020-10-30 13:41:07,447:INFO:Creating Metrics dataframe
+2020-10-30 13:41:07,449:INFO:KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=4, n_init=1, n_jobs=-1, random_state=4452,
+       verbose=0)
+2020-10-30 13:41:07,449:INFO:create_models() succesfully completed......................................
+2020-10-30 13:41:07,449:INFO:SubProcess create_model() end==================================
+2020-10-30 13:41:07,449:INFO:Generating labels
+2020-10-30 13:41:07,449:INFO:SubProcess assign_model() called==================================
+2020-10-30 13:41:07,450:INFO:Initializing assign_model()
+2020-10-30 13:41:07,450:INFO:assign_model(model=KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=4, n_init=1, n_jobs=-1, random_state=4452,
+       verbose=0), transformation=True, verbose=False)
+2020-10-30 13:41:07,450:INFO:Checking exceptions
+2020-10-30 13:41:07,450:INFO:Preloading libraries
+2020-10-30 13:41:07,450:INFO:Copying data
+2020-10-30 13:41:07,451:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-10-30 13:41:07,452:INFO:Preparing display monitor
+2020-10-30 13:41:07,462:INFO:Determining Trained Model
+2020-10-30 13:41:07,462:INFO:Trained Model : K-Modes Clustering
+2020-10-30 13:41:07,462:INFO:(1033, 816)
+2020-10-30 13:41:07,463:INFO:assign_model() succesfully completed......................................
+2020-10-30 13:41:07,463:INFO:SubProcess assign_model() ends==================================
+2020-10-30 13:41:07,463:INFO:Fitting Model with num_clusters = 5
+2020-10-30 13:41:07,468:INFO:SubProcess create_model() called==================================
+2020-10-30 13:41:07,469:INFO:Initializing create_model()
+2020-10-30 13:41:07,469:INFO:create_model(model=kmodes, num_clusters=5, ground_truth=None, verbose=False, system=False)
+2020-10-30 13:41:07,469:INFO:Checking exceptions
+2020-10-30 13:41:07,469:INFO:Preloading libraries
+2020-10-30 13:41:07,469:INFO:Setting num_cluster param
+2020-10-30 13:41:07,469:INFO:Preparing display monitor
+2020-10-30 13:41:07,477:INFO:Importing untrained model
+2020-10-30 13:41:07,478:INFO:K-Modes Clustering Imported succesfully
+2020-10-30 13:41:07,479:INFO:Fitting Model
+2020-10-30 13:41:13,050:INFO:Evaluating Metrics
+2020-10-30 13:41:13,095:INFO:Creating Metrics dataframe
+2020-10-30 13:41:13,096:INFO:KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=5, n_init=1, n_jobs=-1, random_state=4452,
+       verbose=0)
+2020-10-30 13:41:13,097:INFO:create_models() succesfully completed......................................
+2020-10-30 13:41:13,097:INFO:SubProcess create_model() end==================================
+2020-10-30 13:41:13,097:INFO:Generating labels
+2020-10-30 13:41:13,097:INFO:SubProcess assign_model() called==================================
+2020-10-30 13:41:13,097:INFO:Initializing assign_model()
+2020-10-30 13:41:13,098:INFO:assign_model(model=KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=5, n_init=1, n_jobs=-1, random_state=4452,
+       verbose=0), transformation=True, verbose=False)
+2020-10-30 13:41:13,098:INFO:Checking exceptions
+2020-10-30 13:41:13,098:INFO:Preloading libraries
+2020-10-30 13:41:13,098:INFO:Copying data
+2020-10-30 13:41:13,099:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-10-30 13:41:13,099:INFO:Preparing display monitor
+2020-10-30 13:41:13,108:INFO:Determining Trained Model
+2020-10-30 13:41:13,109:INFO:Trained Model : K-Modes Clustering
+2020-10-30 13:41:13,109:INFO:(1033, 816)
+2020-10-30 13:41:13,109:INFO:assign_model() succesfully completed......................................
+2020-10-30 13:41:13,109:INFO:SubProcess assign_model() ends==================================
+2020-10-30 13:41:13,110:INFO:Fitting Model with num_clusters = 6
+2020-10-30 13:41:13,114:INFO:SubProcess create_model() called==================================
+2020-10-30 13:41:13,115:INFO:Initializing create_model()
+2020-10-30 13:41:13,115:INFO:create_model(model=kmodes, num_clusters=6, ground_truth=None, verbose=False, system=False)
+2020-10-30 13:41:13,115:INFO:Checking exceptions
+2020-10-30 13:41:13,115:INFO:Preloading libraries
+2020-10-30 13:41:13,115:INFO:Setting num_cluster param
+2020-10-30 13:41:13,115:INFO:Preparing display monitor
+2020-10-30 13:41:13,123:INFO:Importing untrained model
+2020-10-30 13:41:13,123:INFO:K-Modes Clustering Imported succesfully
+2020-10-30 13:41:13,124:INFO:Fitting Model
+2020-10-30 13:41:20,719:INFO:Evaluating Metrics
+2020-10-30 13:41:20,769:INFO:Creating Metrics dataframe
+2020-10-30 13:41:20,770:INFO:KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=6, n_init=1, n_jobs=-1, random_state=4452,
+       verbose=0)
+2020-10-30 13:41:20,770:INFO:create_models() succesfully completed......................................
+2020-10-30 13:41:20,771:INFO:SubProcess create_model() end==================================
+2020-10-30 13:41:20,771:INFO:Generating labels
+2020-10-30 13:41:20,771:INFO:SubProcess assign_model() called==================================
+2020-10-30 13:41:20,771:INFO:Initializing assign_model()
+2020-10-30 13:41:20,771:INFO:assign_model(model=KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=6, n_init=1, n_jobs=-1, random_state=4452,
+       verbose=0), transformation=True, verbose=False)
+2020-10-30 13:41:20,772:INFO:Checking exceptions
+2020-10-30 13:41:20,772:INFO:Preloading libraries
+2020-10-30 13:41:20,772:INFO:Copying data
+2020-10-30 13:41:20,773:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-10-30 13:41:20,773:INFO:Preparing display monitor
+2020-10-30 13:41:20,782:INFO:Determining Trained Model
+2020-10-30 13:41:20,782:INFO:Trained Model : K-Modes Clustering
+2020-10-30 13:41:20,783:INFO:(1033, 816)
+2020-10-30 13:41:20,783:INFO:assign_model() succesfully completed......................................
+2020-10-30 13:41:20,783:INFO:SubProcess assign_model() ends==================================
+2020-10-30 13:41:20,784:INFO:Fitting Model with num_clusters = 8
+2020-10-30 13:41:20,788:INFO:SubProcess create_model() called==================================
+2020-10-30 13:41:20,789:INFO:Initializing create_model()
+2020-10-30 13:41:20,789:INFO:create_model(model=kmodes, num_clusters=8, ground_truth=None, verbose=False, system=False)
+2020-10-30 13:41:20,789:INFO:Checking exceptions
+2020-10-30 13:41:20,789:INFO:Preloading libraries
+2020-10-30 13:41:20,789:INFO:Setting num_cluster param
+2020-10-30 13:41:20,789:INFO:Preparing display monitor
+2020-10-30 13:41:20,797:INFO:Importing untrained model
+2020-10-30 13:41:20,797:INFO:K-Modes Clustering Imported succesfully
+2020-10-30 13:41:20,798:INFO:Fitting Model
+2020-10-30 13:41:30,158:INFO:Evaluating Metrics
+2020-10-30 13:41:30,210:INFO:Creating Metrics dataframe
+2020-10-30 13:41:30,212:INFO:KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=8, n_init=1, n_jobs=-1, random_state=4452,
+       verbose=0)
+2020-10-30 13:41:30,212:INFO:create_models() succesfully completed......................................
+2020-10-30 13:41:30,212:INFO:SubProcess create_model() end==================================
+2020-10-30 13:41:30,212:INFO:Generating labels
+2020-10-30 13:41:30,212:INFO:SubProcess assign_model() called==================================
+2020-10-30 13:41:30,213:INFO:Initializing assign_model()
+2020-10-30 13:41:30,213:INFO:assign_model(model=KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=8, n_init=1, n_jobs=-1, random_state=4452,
+       verbose=0), transformation=True, verbose=False)
+2020-10-30 13:41:30,213:INFO:Checking exceptions
+2020-10-30 13:41:30,213:INFO:Preloading libraries
+2020-10-30 13:41:30,213:INFO:Copying data
+2020-10-30 13:41:30,215:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-10-30 13:41:30,215:INFO:Preparing display monitor
+2020-10-30 13:41:30,224:INFO:Determining Trained Model
+2020-10-30 13:41:30,225:INFO:Trained Model : K-Modes Clustering
+2020-10-30 13:41:30,225:INFO:(1033, 816)
+2020-10-30 13:41:30,225:INFO:assign_model() succesfully completed......................................
+2020-10-30 13:41:30,225:INFO:SubProcess assign_model() ends==================================
+2020-10-30 13:41:30,226:INFO:Fitting Model with num_clusters = 10
+2020-10-30 13:41:30,230:INFO:SubProcess create_model() called==================================
+2020-10-30 13:41:30,231:INFO:Initializing create_model()
+2020-10-30 13:41:30,231:INFO:create_model(model=kmodes, num_clusters=10, ground_truth=None, verbose=False, system=False)
+2020-10-30 13:41:30,231:INFO:Checking exceptions
+2020-10-30 13:41:30,231:INFO:Preloading libraries
+2020-10-30 13:41:30,231:INFO:Setting num_cluster param
+2020-10-30 13:41:30,231:INFO:Preparing display monitor
+2020-10-30 13:41:30,239:INFO:Importing untrained model
+2020-10-30 13:41:30,239:INFO:K-Modes Clustering Imported succesfully
+2020-10-30 13:41:30,239:INFO:Fitting Model
+2020-10-30 13:41:41,409:INFO:Evaluating Metrics
+2020-10-30 13:41:41,462:INFO:Creating Metrics dataframe
+2020-10-30 13:41:41,463:INFO:KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=10, n_init=1, n_jobs=-1, random_state=4452,
+       verbose=0)
+2020-10-30 13:41:41,464:INFO:create_models() succesfully completed......................................
+2020-10-30 13:41:41,464:INFO:SubProcess create_model() end==================================
+2020-10-30 13:41:41,464:INFO:Generating labels
+2020-10-30 13:41:41,464:INFO:SubProcess assign_model() called==================================
+2020-10-30 13:41:41,464:INFO:Initializing assign_model()
+2020-10-30 13:41:41,465:INFO:assign_model(model=KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=10, n_init=1, n_jobs=-1, random_state=4452,
+       verbose=0), transformation=True, verbose=False)
+2020-10-30 13:41:41,465:INFO:Checking exceptions
+2020-10-30 13:41:41,465:INFO:Preloading libraries
+2020-10-30 13:41:41,465:INFO:Copying data
+2020-10-30 13:41:41,466:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-10-30 13:41:41,466:INFO:Preparing display monitor
+2020-10-30 13:41:41,476:INFO:Determining Trained Model
+2020-10-30 13:41:41,476:INFO:Trained Model : K-Modes Clustering
+2020-10-30 13:41:41,476:INFO:(1033, 816)
+2020-10-30 13:41:41,476:INFO:assign_model() succesfully completed......................................
+2020-10-30 13:41:41,476:INFO:SubProcess assign_model() ends==================================
+2020-10-30 13:41:41,477:INFO:Fitting Model with num_clusters = 14
+2020-10-30 13:41:41,482:INFO:SubProcess create_model() called==================================
+2020-10-30 13:41:41,482:INFO:Initializing create_model()
+2020-10-30 13:41:41,483:INFO:create_model(model=kmodes, num_clusters=14, ground_truth=None, verbose=False, system=False)
+2020-10-30 13:41:41,483:INFO:Checking exceptions
+2020-10-30 13:41:41,483:INFO:Preloading libraries
+2020-10-30 13:41:41,483:INFO:Setting num_cluster param
+2020-10-30 13:41:41,483:INFO:Preparing display monitor
+2020-10-30 13:41:41,491:INFO:Importing untrained model
+2020-10-30 13:41:41,491:INFO:K-Modes Clustering Imported succesfully
+2020-10-30 13:41:41,492:INFO:Fitting Model
+2020-10-30 13:41:56,372:INFO:Evaluating Metrics
+2020-10-30 13:41:56,422:INFO:Creating Metrics dataframe
+2020-10-30 13:41:56,424:INFO:KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=14, n_init=1, n_jobs=-1, random_state=4452,
+       verbose=0)
+2020-10-30 13:41:56,424:INFO:create_models() succesfully completed......................................
+2020-10-30 13:41:56,424:INFO:SubProcess create_model() end==================================
+2020-10-30 13:41:56,424:INFO:Generating labels
+2020-10-30 13:41:56,424:INFO:SubProcess assign_model() called==================================
+2020-10-30 13:41:56,425:INFO:Initializing assign_model()
+2020-10-30 13:41:56,425:INFO:assign_model(model=KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=14, n_init=1, n_jobs=-1, random_state=4452,
+       verbose=0), transformation=True, verbose=False)
+2020-10-30 13:41:56,425:INFO:Checking exceptions
+2020-10-30 13:41:56,425:INFO:Preloading libraries
+2020-10-30 13:41:56,425:INFO:Copying data
+2020-10-30 13:41:56,426:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-10-30 13:41:56,426:INFO:Preparing display monitor
+2020-10-30 13:41:56,435:INFO:Determining Trained Model
+2020-10-30 13:41:56,436:INFO:Trained Model : K-Modes Clustering
+2020-10-30 13:41:56,436:INFO:(1033, 816)
+2020-10-30 13:41:56,436:INFO:assign_model() succesfully completed......................................
+2020-10-30 13:41:56,436:INFO:SubProcess assign_model() ends==================================
+2020-10-30 13:41:56,437:INFO:Fitting Model with num_clusters = 18
+2020-10-30 13:41:56,441:INFO:SubProcess create_model() called==================================
+2020-10-30 13:41:56,442:INFO:Initializing create_model()
+2020-10-30 13:41:56,442:INFO:create_model(model=kmodes, num_clusters=18, ground_truth=None, verbose=False, system=False)
+2020-10-30 13:41:56,443:INFO:Checking exceptions
+2020-10-30 13:41:56,443:INFO:Preloading libraries
+2020-10-30 13:41:56,443:INFO:Setting num_cluster param
+2020-10-30 13:41:56,443:INFO:Preparing display monitor
+2020-10-30 13:41:56,450:INFO:Importing untrained model
+2020-10-30 13:41:56,451:INFO:K-Modes Clustering Imported succesfully
+2020-10-30 13:41:56,451:INFO:Fitting Model
+2020-10-30 13:42:15,616:INFO:Evaluating Metrics
+2020-10-30 13:42:15,664:INFO:Creating Metrics dataframe
+2020-10-30 13:42:15,665:INFO:KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=18, n_init=1, n_jobs=-1, random_state=4452,
+       verbose=0)
+2020-10-30 13:42:15,665:INFO:create_models() succesfully completed......................................
+2020-10-30 13:42:15,665:INFO:SubProcess create_model() end==================================
+2020-10-30 13:42:15,666:INFO:Generating labels
+2020-10-30 13:42:15,666:INFO:SubProcess assign_model() called==================================
+2020-10-30 13:42:15,666:INFO:Initializing assign_model()
+2020-10-30 13:42:15,666:INFO:assign_model(model=KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=18, n_init=1, n_jobs=-1, random_state=4452,
+       verbose=0), transformation=True, verbose=False)
+2020-10-30 13:42:15,666:INFO:Checking exceptions
+2020-10-30 13:42:15,666:INFO:Preloading libraries
+2020-10-30 13:42:15,666:INFO:Copying data
+2020-10-30 13:42:15,670:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-10-30 13:42:15,670:INFO:Preparing display monitor
+2020-10-30 13:42:15,680:INFO:Determining Trained Model
+2020-10-30 13:42:15,680:INFO:Trained Model : K-Modes Clustering
+2020-10-30 13:42:15,680:INFO:(1033, 816)
+2020-10-30 13:42:15,681:INFO:assign_model() succesfully completed......................................
+2020-10-30 13:42:15,681:INFO:SubProcess assign_model() ends==================================
+2020-10-30 13:42:15,681:INFO:Fitting Model with num_clusters = 25
+2020-10-30 13:42:15,686:INFO:SubProcess create_model() called==================================
+2020-10-30 13:42:15,686:INFO:Initializing create_model()
+2020-10-30 13:42:15,686:INFO:create_model(model=kmodes, num_clusters=25, ground_truth=None, verbose=False, system=False)
+2020-10-30 13:42:15,687:INFO:Checking exceptions
+2020-10-30 13:42:15,687:INFO:Preloading libraries
+2020-10-30 13:42:15,687:INFO:Setting num_cluster param
+2020-10-30 13:42:15,687:INFO:Preparing display monitor
+2020-10-30 13:42:15,694:INFO:Importing untrained model
+2020-10-30 13:42:15,694:INFO:K-Modes Clustering Imported succesfully
+2020-10-30 13:42:15,695:INFO:Fitting Model
+2020-10-30 13:42:42,330:INFO:Evaluating Metrics
+2020-10-30 13:42:42,382:INFO:Creating Metrics dataframe
+2020-10-30 13:42:42,383:INFO:KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=25, n_init=1, n_jobs=-1, random_state=4452,
+       verbose=0)
+2020-10-30 13:42:42,383:INFO:create_models() succesfully completed......................................
+2020-10-30 13:42:42,384:INFO:SubProcess create_model() end==================================
+2020-10-30 13:42:42,384:INFO:Generating labels
+2020-10-30 13:42:42,384:INFO:SubProcess assign_model() called==================================
+2020-10-30 13:42:42,384:INFO:Initializing assign_model()
+2020-10-30 13:42:42,384:INFO:assign_model(model=KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=25, n_init=1, n_jobs=-1, random_state=4452,
+       verbose=0), transformation=True, verbose=False)
+2020-10-30 13:42:42,385:INFO:Checking exceptions
+2020-10-30 13:42:42,385:INFO:Preloading libraries
+2020-10-30 13:42:42,385:INFO:Copying data
+2020-10-30 13:42:42,386:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-10-30 13:42:42,386:INFO:Preparing display monitor
+2020-10-30 13:42:42,395:INFO:Determining Trained Model
+2020-10-30 13:42:42,395:INFO:Trained Model : K-Modes Clustering
+2020-10-30 13:42:42,395:INFO:(1033, 816)
+2020-10-30 13:42:42,396:INFO:assign_model() succesfully completed......................................
+2020-10-30 13:42:42,396:INFO:SubProcess assign_model() ends==================================
+2020-10-30 13:42:42,397:INFO:Fitting Model with num_clusters = 30
+2020-10-30 13:42:42,401:INFO:SubProcess create_model() called==================================
+2020-10-30 13:42:42,401:INFO:Initializing create_model()
+2020-10-30 13:42:42,401:INFO:create_model(model=kmodes, num_clusters=30, ground_truth=None, verbose=False, system=False)
+2020-10-30 13:42:42,401:INFO:Checking exceptions
+2020-10-30 13:42:42,401:INFO:Preloading libraries
+2020-10-30 13:42:42,402:INFO:Setting num_cluster param
+2020-10-30 13:42:42,402:INFO:Preparing display monitor
+2020-10-30 13:42:42,408:INFO:Importing untrained model
+2020-10-30 13:42:42,409:INFO:K-Modes Clustering Imported succesfully
+2020-10-30 13:42:42,409:INFO:Fitting Model
+2020-10-30 13:43:14,994:INFO:Evaluating Metrics
+2020-10-30 13:43:15,045:INFO:Creating Metrics dataframe
+2020-10-30 13:43:15,046:INFO:KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=30, n_init=1, n_jobs=-1, random_state=4452,
+       verbose=0)
+2020-10-30 13:43:15,046:INFO:create_models() succesfully completed......................................
+2020-10-30 13:43:15,046:INFO:SubProcess create_model() end==================================
+2020-10-30 13:43:15,047:INFO:Generating labels
+2020-10-30 13:43:15,047:INFO:SubProcess assign_model() called==================================
+2020-10-30 13:43:15,047:INFO:Initializing assign_model()
+2020-10-30 13:43:15,047:INFO:assign_model(model=KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=30, n_init=1, n_jobs=-1, random_state=4452,
+       verbose=0), transformation=True, verbose=False)
+2020-10-30 13:43:15,047:INFO:Checking exceptions
+2020-10-30 13:43:15,048:INFO:Preloading libraries
+2020-10-30 13:43:15,048:INFO:Copying data
+2020-10-30 13:43:15,052:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-10-30 13:43:15,052:INFO:Preparing display monitor
+2020-10-30 13:43:15,063:INFO:Determining Trained Model
+2020-10-30 13:43:15,064:INFO:Trained Model : K-Modes Clustering
+2020-10-30 13:43:15,064:INFO:(1033, 816)
+2020-10-30 13:43:15,064:INFO:assign_model() succesfully completed......................................
+2020-10-30 13:43:15,064:INFO:SubProcess assign_model() ends==================================
+2020-10-30 13:43:15,065:INFO:Fitting Model with num_clusters = 40
+2020-10-30 13:43:15,069:INFO:SubProcess create_model() called==================================
+2020-10-30 13:43:15,070:INFO:Initializing create_model()
+2020-10-30 13:43:15,070:INFO:create_model(model=kmodes, num_clusters=40, ground_truth=None, verbose=False, system=False)
+2020-10-30 13:43:15,070:INFO:Checking exceptions
+2020-10-30 13:43:15,070:INFO:Preloading libraries
+2020-10-30 13:43:15,070:INFO:Setting num_cluster param
+2020-10-30 13:43:15,070:INFO:Preparing display monitor
+2020-10-30 13:43:15,078:INFO:Importing untrained model
+2020-10-30 13:43:15,079:INFO:K-Modes Clustering Imported succesfully
+2020-10-30 13:43:15,080:INFO:Fitting Model
+2020-10-30 13:44:02,077:INFO:Evaluating Metrics
+2020-10-30 13:44:02,133:INFO:Creating Metrics dataframe
+2020-10-30 13:44:02,134:INFO:KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=40, n_init=1, n_jobs=-1, random_state=4452,
+       verbose=0)
+2020-10-30 13:44:02,134:INFO:create_models() succesfully completed......................................
+2020-10-30 13:44:02,134:INFO:SubProcess create_model() end==================================
+2020-10-30 13:44:02,134:INFO:Generating labels
+2020-10-30 13:44:02,134:INFO:SubProcess assign_model() called==================================
+2020-10-30 13:44:02,135:INFO:Initializing assign_model()
+2020-10-30 13:44:02,135:INFO:assign_model(model=KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=40, n_init=1, n_jobs=-1, random_state=4452,
+       verbose=0), transformation=True, verbose=False)
+2020-10-30 13:44:02,135:INFO:Checking exceptions
+2020-10-30 13:44:02,135:INFO:Preloading libraries
+2020-10-30 13:44:02,135:INFO:Copying data
+2020-10-30 13:44:02,139:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-10-30 13:44:02,139:INFO:Preparing display monitor
+2020-10-30 13:44:02,147:INFO:Determining Trained Model
+2020-10-30 13:44:02,147:INFO:Trained Model : K-Modes Clustering
+2020-10-30 13:44:02,147:INFO:(1033, 816)
+2020-10-30 13:44:02,147:INFO:assign_model() succesfully completed......................................
+2020-10-30 13:44:02,148:INFO:SubProcess assign_model() ends==================================
+2020-10-30 13:44:02,148:INFO:Defining Supervised Estimator
+2020-10-30 13:44:02,148:INFO:Problem : Regression
+2020-10-30 13:44:02,152:INFO:Linear Regression Imported Successfully
+2020-10-30 13:44:02,153:INFO:Creating Regressor without clusters
+2020-10-30 13:44:02,388:INFO:Fitting Model
+2020-10-30 13:44:02,520:INFO:Generating Cross Val Predictions
+2020-10-30 13:44:03,829:INFO:Creating Regressor with num_clusters = 4
+2020-10-30 13:44:04,136:INFO:Fitting Model
+2020-10-30 13:44:04,301:INFO:Generating Cross Val Predictions
+2020-10-30 13:44:05,645:INFO:Creating Regressor with num_clusters = 5
+2020-10-30 13:44:05,901:INFO:Fitting Model
+2020-10-30 13:44:06,051:INFO:Generating Cross Val Predictions
+2020-10-30 13:44:07,461:INFO:Creating Regressor with num_clusters = 6
+2020-10-30 13:44:07,698:INFO:Fitting Model
+2020-10-30 13:44:07,818:INFO:Generating Cross Val Predictions
+2020-10-30 13:44:09,164:INFO:Creating Regressor with num_clusters = 8
+2020-10-30 13:44:09,414:INFO:Fitting Model
+2020-10-30 13:44:09,533:INFO:Generating Cross Val Predictions
+2020-10-30 13:44:10,869:INFO:Creating Regressor with num_clusters = 10
+2020-10-30 13:44:11,108:INFO:Fitting Model
+2020-10-30 13:44:11,223:INFO:Generating Cross Val Predictions
+2020-10-30 13:44:12,590:INFO:Creating Regressor with num_clusters = 14
+2020-10-30 13:44:12,843:INFO:Fitting Model
+2020-10-30 13:44:12,956:INFO:Generating Cross Val Predictions
+2020-10-30 13:44:14,368:INFO:Creating Regressor with num_clusters = 18
+2020-10-30 13:44:14,606:INFO:Fitting Model
+2020-10-30 13:44:14,722:INFO:Generating Cross Val Predictions
+2020-10-30 13:44:16,063:INFO:Creating Regressor with num_clusters = 25
+2020-10-30 13:44:16,307:INFO:Fitting Model
+2020-10-30 13:44:16,419:INFO:Generating Cross Val Predictions
+2020-10-30 13:44:17,769:INFO:Creating Regressor with num_clusters = 30
+2020-10-30 13:44:18,016:INFO:Fitting Model
+2020-10-30 13:44:18,135:INFO:Generating Cross Val Predictions
+2020-10-30 13:44:19,497:INFO:Creating Regressor with num_clusters = 40
+2020-10-30 13:44:19,739:INFO:Fitting Model
+2020-10-30 13:44:19,855:INFO:Generating Cross Val Predictions
+2020-10-30 13:44:21,243:INFO:Creating metrics dataframe
+2020-10-30 13:45:34,046:INFO:PyCaret Clustering Module
+2020-10-30 13:45:34,046:INFO:version 2.1.2
+2020-10-30 13:45:34,046:INFO:Initializing setup()
+2020-10-30 13:45:34,046:INFO:USI: d0fd
+2020-10-30 13:45:34,046:INFO:setup(data=(1033, 10), categorical_features=None, categorical_imputation=constant, ordinal_features=None, high_cardinality_features=None, 
+                    numeric_features=None, numeric_imputation=mean, date_features=None, ignore_features=None, normalize=False,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, group_features=None,
+                    group_names=None, supervised=False, supervised_target=None, n_jobs=-1, html=True, session_id=None, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2020-10-30 13:45:34,046:INFO:Checking environment
+2020-10-30 13:45:34,046:INFO:python_version: 3.7.9
+2020-10-30 13:45:34,046:INFO:python_build: ('default', 'Aug 31 2020 07:22:35')
+2020-10-30 13:45:34,047:INFO:machine: x86_64
+2020-10-30 13:45:34,047:INFO:platform: Darwin-19.6.0-x86_64-i386-64bit
+2020-10-30 13:45:34,047:INFO:Memory: svmem(total=17179869184, available=7044399104, percent=59.0, used=9374711808, free=331411456, active=6716997632, inactive=6472941568, wired=2657714176)
+2020-10-30 13:45:34,047:INFO:Physical Core: 6
+2020-10-30 13:45:34,047:INFO:Logical Core: 12
+2020-10-30 13:45:34,047:INFO:Checking libraries
+2020-10-30 13:45:34,047:INFO:pd==0.25.3
+2020-10-30 13:45:34,047:INFO:numpy==1.18.5
+2020-10-30 13:45:34,047:INFO:sklearn==0.22.2.post1
+2020-10-30 13:45:34,047:INFO:kmodes==0.10.2
+2020-10-30 13:45:34,047:INFO:mlflow==1.11.0
+2020-10-30 13:45:34,047:INFO:Checking Exceptions
+2020-10-30 13:45:34,048:INFO:Preloading libraries
+2020-10-30 13:45:34,048:INFO:Preparing display monitor
+2020-10-30 13:45:34,060:INFO:Importing libraries
+2020-10-30 13:45:34,061:INFO:Declaring global variables
+2020-10-30 13:45:34,061:INFO:Copying data for preprocessing
+2020-10-30 13:45:34,066:INFO:Declaring preprocessing parameters
+2020-10-30 13:45:34,066:INFO:Importing preprocessing module
+2020-10-30 13:45:34,066:INFO:Creating preprocessing pipeline
+2020-10-30 13:45:34,957:INFO:Preprocessing pipeline created successfully
+2020-10-30 13:45:34,957:INFO:Creating grid variables
+2020-10-30 13:45:34,958:INFO:Creating global containers
+2020-10-30 13:45:34,984:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='dummy_target',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_L...
+                                                    target='dummy_target')),
+                ('feature_time',
+                 Make_Time_Features(list_of_features=None, time_feature=[])),
+                ('group', Empty()), ('scaling', Empty()),
+                ('P_transform', Empty()), ('binn', Empty()),
+                ('fix_perfect', Empty()), ('rem_outliers', Empty()),
+                ('dummy', Dummify(target='dummy_target')),
+                ('clean_names', Clean_Colum_Names()), ('fix_multi', Empty()),
+                ('pca', Empty())],
+         verbose=False)
+2020-10-30 13:45:34,984:INFO:setup() succesfully completed......................................
+2020-10-30 13:45:35,641:INFO:Initializing create_model()
+2020-10-30 13:45:35,641:INFO:create_model(model=kmeans, num_clusters=None, ground_truth=None, verbose=True, system=True)
+2020-10-30 13:45:35,641:INFO:Checking exceptions
+2020-10-30 13:45:35,641:INFO:Preloading libraries
+2020-10-30 13:45:35,642:INFO:Setting num_cluster param
+2020-10-30 13:45:35,642:INFO:Preparing display monitor
+2020-10-30 13:45:35,656:INFO:Importing untrained model
+2020-10-30 13:45:35,656:INFO:K-Means Clustering Imported succesfully
+2020-10-30 13:45:35,660:INFO:Fitting Model
+2020-10-30 13:45:35,965:INFO:Evaluating Metrics
+2020-10-30 13:45:36,031:INFO:Creating Metrics dataframe
+2020-10-30 13:45:36,041:INFO:KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='auto',
+       random_state=1557, tol=0.0001, verbose=0)
+2020-10-30 13:45:36,041:INFO:create_models() succesfully completed......................................
+2020-10-30 13:45:36,701:INFO:Initializing tune_model()
+2020-10-30 13:45:36,701:INFO:tune_model(model=kmodes, supervised_target=group, estimator=None, optimize=None, custom_grid=None, fold=10, verbose=True)
+2020-10-30 13:45:36,701:INFO:Checking exceptions
+2020-10-30 13:45:36,701:INFO:Preloading libraries
+2020-10-30 13:45:36,701:INFO:Preparing display monitor
+2020-10-30 13:45:36,722:INFO:Importing libraries
+2020-10-30 13:45:36,722:INFO:Copying environment variables
+2020-10-30 13:45:36,733:INFO:Objective : Regression
+2020-10-30 13:45:36,733:INFO:Defining Model Name
+2020-10-30 13:45:36,734:INFO:Defining Supervised Estimator
+2020-10-30 13:45:36,734:INFO:Defining Optimizer
+2020-10-30 13:45:36,734:INFO:Optimize: R2
+2020-10-30 13:45:36,734:INFO:Defining Tuning Grid
+2020-10-30 13:45:36,734:INFO:Pre-defined Grid used
+2020-10-30 13:45:36,738:INFO:Defining setup variables for preprocessing
+2020-10-30 13:45:36,740:INFO:SubProcess setup() called
+2020-10-30 13:45:36,740:INFO:PyCaret Clustering Module
+2020-10-30 13:45:36,741:INFO:version 2.1.2
+2020-10-30 13:45:36,741:INFO:Initializing setup()
+2020-10-30 13:45:36,741:INFO:USI: dac4
+2020-10-30 13:45:36,741:INFO:setup(data=(1033, 10), categorical_features=[], categorical_imputation=constant, ordinal_features=None, high_cardinality_features=None, 
+                    numeric_features=[], numeric_imputation=mean, date_features=[], ignore_features=[], normalize=False,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=0.99, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=[],
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, group_features=None,
+                    group_names=None, supervised=True, supervised_target=group, n_jobs=-1, html=True, session_id=1557, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=False, profile=False)
+2020-10-30 13:45:36,741:INFO:Checking environment
+2020-10-30 13:45:36,741:INFO:python_version: 3.7.9
+2020-10-30 13:45:36,741:INFO:python_build: ('default', 'Aug 31 2020 07:22:35')
+2020-10-30 13:45:36,741:INFO:machine: x86_64
+2020-10-30 13:45:36,741:INFO:platform: Darwin-19.6.0-x86_64-i386-64bit
+2020-10-30 13:45:36,741:INFO:Memory: svmem(total=17179869184, available=6934241280, percent=59.6, used=9485582336, free=117174272, active=6826987520, inactive=6497292288, wired=2658594816)
+2020-10-30 13:45:36,741:INFO:Physical Core: 6
+2020-10-30 13:45:36,741:INFO:Logical Core: 12
+2020-10-30 13:45:36,741:INFO:Checking libraries
+2020-10-30 13:45:36,741:INFO:pd==0.25.3
+2020-10-30 13:45:36,741:INFO:numpy==1.18.5
+2020-10-30 13:45:36,741:INFO:sklearn==0.22.2.post1
+2020-10-30 13:45:36,741:INFO:kmodes==0.10.2
+2020-10-30 13:45:36,741:INFO:mlflow==1.11.0
+2020-10-30 13:45:36,741:INFO:Checking Exceptions
+2020-10-30 13:45:36,742:INFO:Preloading libraries
+2020-10-30 13:45:36,742:INFO:Preparing display monitor
+2020-10-30 13:45:36,748:INFO:Importing libraries
+2020-10-30 13:45:36,748:INFO:Declaring global variables
+2020-10-30 13:45:36,748:INFO:Copying data for preprocessing
+2020-10-30 13:45:36,750:INFO:Declaring preprocessing parameters
+2020-10-30 13:45:36,751:INFO:Importing preprocessing module
+2020-10-30 13:45:36,751:INFO:Creating preprocessing pipeline
+2020-10-30 13:45:36,880:INFO:Preprocessing pipeline created successfully
+2020-10-30 13:45:36,880:INFO:Creating grid variables
+2020-10-30 13:45:36,882:INFO:Creating global containers
+2020-10-30 13:45:36,888:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=False, features_todrop=[],
+                                      ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='dummy_target',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_...
+                ('feature_time',
+                 Make_Time_Features(list_of_features=None, time_feature=[])),
+                ('group', Empty()), ('scaling', Empty()),
+                ('P_transform', Empty()),
+                ('binn', Binning(features_to_discretize=[])),
+                ('fix_perfect', Empty()), ('rem_outliers', Empty()),
+                ('dummy', Dummify(target='dummy_target')),
+                ('clean_names', Clean_Colum_Names()), ('fix_multi', Empty()),
+                ('pca', Empty())],
+         verbose=False)
+2020-10-30 13:45:36,888:INFO:setup() succesfully completed......................................
+2020-10-30 13:45:36,888:INFO:SubProcess setup() end
+2020-10-30 13:45:36,888:INFO:Fitting Model with num_clusters = 4
+2020-10-30 13:45:36,892:INFO:SubProcess create_model() called==================================
+2020-10-30 13:45:36,892:INFO:Initializing create_model()
+2020-10-30 13:45:36,893:INFO:create_model(model=kmodes, num_clusters=4, ground_truth=None, verbose=False, system=False)
+2020-10-30 13:45:36,893:INFO:Checking exceptions
+2020-10-30 13:45:36,893:INFO:Preloading libraries
+2020-10-30 13:45:36,893:INFO:Setting num_cluster param
+2020-10-30 13:45:36,893:INFO:Preparing display monitor
+2020-10-30 13:45:36,900:INFO:Importing untrained model
+2020-10-30 13:45:36,900:INFO:K-Modes Clustering Imported succesfully
+2020-10-30 13:45:36,900:INFO:Fitting Model
+2020-10-30 13:45:41,732:INFO:Evaluating Metrics
+2020-10-30 13:45:41,774:INFO:Creating Metrics dataframe
+2020-10-30 13:45:41,775:INFO:KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=4, n_init=1, n_jobs=-1, random_state=1557,
+       verbose=0)
+2020-10-30 13:45:41,775:INFO:create_models() succesfully completed......................................
+2020-10-30 13:45:41,775:INFO:SubProcess create_model() end==================================
+2020-10-30 13:45:41,776:INFO:Generating labels
+2020-10-30 13:45:41,776:INFO:SubProcess assign_model() called==================================
+2020-10-30 13:45:41,776:INFO:Initializing assign_model()
+2020-10-30 13:45:41,776:INFO:assign_model(model=KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=4, n_init=1, n_jobs=-1, random_state=1557,
+       verbose=0), transformation=True, verbose=False)
+2020-10-30 13:45:41,777:INFO:Checking exceptions
+2020-10-30 13:45:41,777:INFO:Preloading libraries
+2020-10-30 13:45:41,777:INFO:Copying data
+2020-10-30 13:45:41,778:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-10-30 13:45:41,778:INFO:Preparing display monitor
+2020-10-30 13:45:41,788:INFO:Determining Trained Model
+2020-10-30 13:45:41,788:INFO:Trained Model : K-Modes Clustering
+2020-10-30 13:45:41,789:INFO:(1033, 817)
+2020-10-30 13:45:41,789:INFO:assign_model() succesfully completed......................................
+2020-10-30 13:45:41,789:INFO:SubProcess assign_model() ends==================================
+2020-10-30 13:45:41,789:INFO:Fitting Model with num_clusters = 5
+2020-10-30 13:45:41,795:INFO:SubProcess create_model() called==================================
+2020-10-30 13:45:41,796:INFO:Initializing create_model()
+2020-10-30 13:45:41,796:INFO:create_model(model=kmodes, num_clusters=5, ground_truth=None, verbose=False, system=False)
+2020-10-30 13:45:41,796:INFO:Checking exceptions
+2020-10-30 13:45:41,796:INFO:Preloading libraries
+2020-10-30 13:45:41,796:INFO:Setting num_cluster param
+2020-10-30 13:45:41,796:INFO:Preparing display monitor
+2020-10-30 13:45:41,803:INFO:Importing untrained model
+2020-10-30 13:45:41,804:INFO:K-Modes Clustering Imported succesfully
+2020-10-30 13:45:41,805:INFO:Fitting Model
+2020-10-30 13:45:47,916:INFO:Initializing tune_model()
+2020-10-30 13:45:47,917:INFO:tune_model(model=kmodes, supervised_target=target, estimator=None, optimize=None, custom_grid=None, fold=10, verbose=True)
+2020-10-30 13:45:47,917:INFO:Checking exceptions
+2020-10-30 13:45:47,917:INFO:Preloading libraries
+2020-10-30 13:45:47,917:INFO:Preparing display monitor
+2020-10-30 13:45:47,937:INFO:Importing libraries
+2020-10-30 13:45:47,937:INFO:Copying environment variables
+2020-10-30 13:45:47,946:INFO:Objective : Regression
+2020-10-30 13:45:47,946:INFO:Defining Model Name
+2020-10-30 13:45:47,946:INFO:Defining Supervised Estimator
+2020-10-30 13:45:47,946:INFO:Defining Optimizer
+2020-10-30 13:45:47,946:INFO:Optimize: R2
+2020-10-30 13:45:47,947:INFO:Defining Tuning Grid
+2020-10-30 13:45:47,947:INFO:Pre-defined Grid used
+2020-10-30 13:45:47,950:INFO:Defining setup variables for preprocessing
+2020-10-30 13:45:47,952:INFO:SubProcess setup() called
+2020-10-30 13:45:47,953:INFO:PyCaret Clustering Module
+2020-10-30 13:45:47,953:INFO:version 2.1.2
+2020-10-30 13:45:47,953:INFO:Initializing setup()
+2020-10-30 13:45:47,953:INFO:USI: 18ce
+2020-10-30 13:45:47,953:INFO:setup(data=(1033, 10), categorical_features=[], categorical_imputation=constant, ordinal_features=None, high_cardinality_features=None, 
+                    numeric_features=[], numeric_imputation=mean, date_features=[], ignore_features=[], normalize=False,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=0.99, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=[],
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, group_features=None,
+                    group_names=None, supervised=True, supervised_target=target, n_jobs=-1, html=True, session_id=1557, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=False, profile=False)
+2020-10-30 13:45:47,953:INFO:Checking environment
+2020-10-30 13:45:47,953:INFO:python_version: 3.7.9
+2020-10-30 13:45:47,953:INFO:python_build: ('default', 'Aug 31 2020 07:22:35')
+2020-10-30 13:45:47,953:INFO:machine: x86_64
+2020-10-30 13:45:47,953:INFO:platform: Darwin-19.6.0-x86_64-i386-64bit
+2020-10-30 13:45:47,953:INFO:Memory: svmem(total=17179869184, available=7239991296, percent=57.9, used=9178656768, free=707506176, active=6536249344, inactive=6159679488, wired=2642407424)
+2020-10-30 13:45:47,953:INFO:Physical Core: 6
+2020-10-30 13:45:47,953:INFO:Logical Core: 12
+2020-10-30 13:45:47,954:INFO:Checking libraries
+2020-10-30 13:45:47,954:INFO:pd==0.25.3
+2020-10-30 13:45:47,954:INFO:numpy==1.18.5
+2020-10-30 13:45:47,954:INFO:sklearn==0.22.2.post1
+2020-10-30 13:45:47,954:INFO:kmodes==0.10.2
+2020-10-30 13:45:47,954:INFO:mlflow==1.11.0
+2020-10-30 13:45:47,954:INFO:Checking Exceptions
+2020-10-30 13:45:47,954:INFO:Preloading libraries
+2020-10-30 13:45:47,954:INFO:Preparing display monitor
+2020-10-30 13:45:47,960:INFO:Importing libraries
+2020-10-30 13:45:47,961:INFO:Declaring global variables
+2020-10-30 13:45:47,961:INFO:Copying data for preprocessing
+2020-10-30 13:45:47,963:INFO:Declaring preprocessing parameters
+2020-10-30 13:45:47,963:INFO:Importing preprocessing module
+2020-10-30 13:45:47,963:INFO:Creating preprocessing pipeline
+2020-10-30 13:45:48,099:INFO:Preprocessing pipeline created successfully
+2020-10-30 13:45:48,100:INFO:Creating grid variables
+2020-10-30 13:45:48,101:INFO:Creating global containers
+2020-10-30 13:45:48,107:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=False, features_todrop=[],
+                                      ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='dummy_target',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_...
+                ('feature_time',
+                 Make_Time_Features(list_of_features=None, time_feature=[])),
+                ('group', Empty()), ('scaling', Empty()),
+                ('P_transform', Empty()),
+                ('binn', Binning(features_to_discretize=[])),
+                ('fix_perfect', Empty()), ('rem_outliers', Empty()),
+                ('dummy', Dummify(target='dummy_target')),
+                ('clean_names', Clean_Colum_Names()), ('fix_multi', Empty()),
+                ('pca', Empty())],
+         verbose=False)
+2020-10-30 13:45:48,107:INFO:setup() succesfully completed......................................
+2020-10-30 13:45:48,107:INFO:SubProcess setup() end
+2020-10-30 13:45:48,107:INFO:Fitting Model with num_clusters = 4
+2020-10-30 13:45:48,111:INFO:SubProcess create_model() called==================================
+2020-10-30 13:45:48,112:INFO:Initializing create_model()
+2020-10-30 13:45:48,112:INFO:create_model(model=kmodes, num_clusters=4, ground_truth=None, verbose=False, system=False)
+2020-10-30 13:45:48,112:INFO:Checking exceptions
+2020-10-30 13:45:48,112:INFO:Preloading libraries
+2020-10-30 13:45:48,112:INFO:Setting num_cluster param
+2020-10-30 13:45:48,112:INFO:Preparing display monitor
+2020-10-30 13:45:48,119:INFO:Importing untrained model
+2020-10-30 13:45:48,119:INFO:K-Modes Clustering Imported succesfully
+2020-10-30 13:45:48,120:INFO:Fitting Model
+2020-10-30 13:45:53,620:INFO:Evaluating Metrics
+2020-10-30 13:45:53,673:INFO:Creating Metrics dataframe
+2020-10-30 13:45:53,675:INFO:KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=4, n_init=1, n_jobs=-1, random_state=1557,
+       verbose=0)
+2020-10-30 13:45:53,676:INFO:create_models() succesfully completed......................................
+2020-10-30 13:45:53,676:INFO:SubProcess create_model() end==================================
+2020-10-30 13:45:53,676:INFO:Generating labels
+2020-10-30 13:45:53,676:INFO:SubProcess assign_model() called==================================
+2020-10-30 13:45:53,677:INFO:Initializing assign_model()
+2020-10-30 13:45:53,677:INFO:assign_model(model=KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=4, n_init=1, n_jobs=-1, random_state=1557,
+       verbose=0), transformation=True, verbose=False)
+2020-10-30 13:45:53,677:INFO:Checking exceptions
+2020-10-30 13:45:53,677:INFO:Preloading libraries
+2020-10-30 13:45:53,677:INFO:Copying data
+2020-10-30 13:45:53,679:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-10-30 13:45:53,679:INFO:Preparing display monitor
+2020-10-30 13:45:53,689:INFO:Determining Trained Model
+2020-10-30 13:45:53,690:INFO:Trained Model : K-Modes Clustering
+2020-10-30 13:45:53,690:INFO:(1033, 820)
+2020-10-30 13:45:53,690:INFO:assign_model() succesfully completed......................................
+2020-10-30 13:45:53,690:INFO:SubProcess assign_model() ends==================================
+2020-10-30 13:45:53,691:INFO:Fitting Model with num_clusters = 5
+2020-10-30 13:45:53,696:INFO:SubProcess create_model() called==================================
+2020-10-30 13:45:53,697:INFO:Initializing create_model()
+2020-10-30 13:45:53,697:INFO:create_model(model=kmodes, num_clusters=5, ground_truth=None, verbose=False, system=False)
+2020-10-30 13:45:53,697:INFO:Checking exceptions
+2020-10-30 13:45:53,697:INFO:Preloading libraries
+2020-10-30 13:45:53,697:INFO:Setting num_cluster param
+2020-10-30 13:45:53,697:INFO:Preparing display monitor
+2020-10-30 13:45:53,704:INFO:Importing untrained model
+2020-10-30 13:45:53,704:INFO:K-Modes Clustering Imported succesfully
+2020-10-30 13:45:53,705:INFO:Fitting Model
+2020-10-30 13:45:59,415:INFO:Evaluating Metrics
+2020-10-30 13:45:59,458:INFO:Creating Metrics dataframe
+2020-10-30 13:45:59,459:INFO:KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=5, n_init=1, n_jobs=-1, random_state=1557,
+       verbose=0)
+2020-10-30 13:45:59,459:INFO:create_models() succesfully completed......................................
+2020-10-30 13:45:59,459:INFO:SubProcess create_model() end==================================
+2020-10-30 13:45:59,459:INFO:Generating labels
+2020-10-30 13:45:59,460:INFO:SubProcess assign_model() called==================================
+2020-10-30 13:45:59,460:INFO:Initializing assign_model()
+2020-10-30 13:45:59,460:INFO:assign_model(model=KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=5, n_init=1, n_jobs=-1, random_state=1557,
+       verbose=0), transformation=True, verbose=False)
+2020-10-30 13:45:59,460:INFO:Checking exceptions
+2020-10-30 13:45:59,460:INFO:Preloading libraries
+2020-10-30 13:45:59,460:INFO:Copying data
+2020-10-30 13:45:59,461:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-10-30 13:45:59,461:INFO:Preparing display monitor
+2020-10-30 13:45:59,471:INFO:Determining Trained Model
+2020-10-30 13:45:59,471:INFO:Trained Model : K-Modes Clustering
+2020-10-30 13:45:59,471:INFO:(1033, 820)
+2020-10-30 13:45:59,472:INFO:assign_model() succesfully completed......................................
+2020-10-30 13:45:59,472:INFO:SubProcess assign_model() ends==================================
+2020-10-30 13:45:59,472:INFO:Fitting Model with num_clusters = 6
+2020-10-30 13:45:59,476:INFO:SubProcess create_model() called==================================
+2020-10-30 13:45:59,477:INFO:Initializing create_model()
+2020-10-30 13:45:59,477:INFO:create_model(model=kmodes, num_clusters=6, ground_truth=None, verbose=False, system=False)
+2020-10-30 13:45:59,477:INFO:Checking exceptions
+2020-10-30 13:45:59,477:INFO:Preloading libraries
+2020-10-30 13:45:59,477:INFO:Setting num_cluster param
+2020-10-30 13:45:59,477:INFO:Preparing display monitor
+2020-10-30 13:45:59,483:INFO:Importing untrained model
+2020-10-30 13:45:59,483:INFO:K-Modes Clustering Imported succesfully
+2020-10-30 13:45:59,484:INFO:Fitting Model
+2020-10-30 13:46:07,106:INFO:Evaluating Metrics
+2020-10-30 13:46:07,153:INFO:Creating Metrics dataframe
+2020-10-30 13:46:07,154:INFO:KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=6, n_init=1, n_jobs=-1, random_state=1557,
+       verbose=0)
+2020-10-30 13:46:07,155:INFO:create_models() succesfully completed......................................
+2020-10-30 13:46:07,155:INFO:SubProcess create_model() end==================================
+2020-10-30 13:46:07,155:INFO:Generating labels
+2020-10-30 13:46:07,155:INFO:SubProcess assign_model() called==================================
+2020-10-30 13:46:07,155:INFO:Initializing assign_model()
+2020-10-30 13:46:07,156:INFO:assign_model(model=KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=6, n_init=1, n_jobs=-1, random_state=1557,
+       verbose=0), transformation=True, verbose=False)
+2020-10-30 13:46:07,156:INFO:Checking exceptions
+2020-10-30 13:46:07,156:INFO:Preloading libraries
+2020-10-30 13:46:07,156:INFO:Copying data
+2020-10-30 13:46:07,157:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-10-30 13:46:07,157:INFO:Preparing display monitor
+2020-10-30 13:46:07,166:INFO:Determining Trained Model
+2020-10-30 13:46:07,166:INFO:Trained Model : K-Modes Clustering
+2020-10-30 13:46:07,166:INFO:(1033, 820)
+2020-10-30 13:46:07,166:INFO:assign_model() succesfully completed......................................
+2020-10-30 13:46:07,166:INFO:SubProcess assign_model() ends==================================
+2020-10-30 13:46:07,167:INFO:Fitting Model with num_clusters = 8
+2020-10-30 13:46:07,170:INFO:SubProcess create_model() called==================================
+2020-10-30 13:46:07,171:INFO:Initializing create_model()
+2020-10-30 13:46:07,171:INFO:create_model(model=kmodes, num_clusters=8, ground_truth=None, verbose=False, system=False)
+2020-10-30 13:46:07,171:INFO:Checking exceptions
+2020-10-30 13:46:07,172:INFO:Preloading libraries
+2020-10-30 13:46:07,172:INFO:Setting num_cluster param
+2020-10-30 13:46:07,172:INFO:Preparing display monitor
+2020-10-30 13:46:07,178:INFO:Importing untrained model
+2020-10-30 13:46:07,178:INFO:K-Modes Clustering Imported succesfully
+2020-10-30 13:46:07,179:INFO:Fitting Model
+2020-10-30 13:46:16,376:INFO:Evaluating Metrics
+2020-10-30 13:46:16,427:INFO:Creating Metrics dataframe
+2020-10-30 13:46:16,428:INFO:KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=8, n_init=1, n_jobs=-1, random_state=1557,
+       verbose=0)
+2020-10-30 13:46:16,428:INFO:create_models() succesfully completed......................................
+2020-10-30 13:46:16,428:INFO:SubProcess create_model() end==================================
+2020-10-30 13:46:16,428:INFO:Generating labels
+2020-10-30 13:46:16,428:INFO:SubProcess assign_model() called==================================
+2020-10-30 13:46:16,429:INFO:Initializing assign_model()
+2020-10-30 13:46:16,429:INFO:assign_model(model=KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=8, n_init=1, n_jobs=-1, random_state=1557,
+       verbose=0), transformation=True, verbose=False)
+2020-10-30 13:46:16,429:INFO:Checking exceptions
+2020-10-30 13:46:16,429:INFO:Preloading libraries
+2020-10-30 13:46:16,429:INFO:Copying data
+2020-10-30 13:46:16,431:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-10-30 13:46:16,431:INFO:Preparing display monitor
+2020-10-30 13:46:16,440:INFO:Determining Trained Model
+2020-10-30 13:46:16,440:INFO:Trained Model : K-Modes Clustering
+2020-10-30 13:46:16,440:INFO:(1033, 820)
+2020-10-30 13:46:16,440:INFO:assign_model() succesfully completed......................................
+2020-10-30 13:46:16,441:INFO:SubProcess assign_model() ends==================================
+2020-10-30 13:46:16,441:INFO:Fitting Model with num_clusters = 10
+2020-10-30 13:46:16,445:INFO:SubProcess create_model() called==================================
+2020-10-30 13:46:16,446:INFO:Initializing create_model()
+2020-10-30 13:46:16,446:INFO:create_model(model=kmodes, num_clusters=10, ground_truth=None, verbose=False, system=False)
+2020-10-30 13:46:16,447:INFO:Checking exceptions
+2020-10-30 13:46:16,447:INFO:Preloading libraries
+2020-10-30 13:46:16,447:INFO:Setting num_cluster param
+2020-10-30 13:46:16,447:INFO:Preparing display monitor
+2020-10-30 13:46:16,455:INFO:Importing untrained model
+2020-10-30 13:46:16,455:INFO:K-Modes Clustering Imported succesfully
+2020-10-30 13:46:16,456:INFO:Fitting Model
+2020-10-30 13:46:27,713:INFO:Evaluating Metrics
+2020-10-30 13:46:27,763:INFO:Creating Metrics dataframe
+2020-10-30 13:46:27,764:INFO:KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=10, n_init=1, n_jobs=-1, random_state=1557,
+       verbose=0)
+2020-10-30 13:46:27,764:INFO:create_models() succesfully completed......................................
+2020-10-30 13:46:27,764:INFO:SubProcess create_model() end==================================
+2020-10-30 13:46:27,764:INFO:Generating labels
+2020-10-30 13:46:27,765:INFO:SubProcess assign_model() called==================================
+2020-10-30 13:46:27,765:INFO:Initializing assign_model()
+2020-10-30 13:46:27,765:INFO:assign_model(model=KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=10, n_init=1, n_jobs=-1, random_state=1557,
+       verbose=0), transformation=True, verbose=False)
+2020-10-30 13:46:27,765:INFO:Checking exceptions
+2020-10-30 13:46:27,765:INFO:Preloading libraries
+2020-10-30 13:46:27,765:INFO:Copying data
+2020-10-30 13:46:27,767:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-10-30 13:46:27,767:INFO:Preparing display monitor
+2020-10-30 13:46:27,776:INFO:Determining Trained Model
+2020-10-30 13:46:27,777:INFO:Trained Model : K-Modes Clustering
+2020-10-30 13:46:27,777:INFO:(1033, 820)
+2020-10-30 13:46:27,777:INFO:assign_model() succesfully completed......................................
+2020-10-30 13:46:27,777:INFO:SubProcess assign_model() ends==================================
+2020-10-30 13:46:27,778:INFO:Fitting Model with num_clusters = 14
+2020-10-30 13:46:27,782:INFO:SubProcess create_model() called==================================
+2020-10-30 13:46:27,783:INFO:Initializing create_model()
+2020-10-30 13:46:27,783:INFO:create_model(model=kmodes, num_clusters=14, ground_truth=None, verbose=False, system=False)
+2020-10-30 13:46:27,783:INFO:Checking exceptions
+2020-10-30 13:46:27,784:INFO:Preloading libraries
+2020-10-30 13:46:27,784:INFO:Setting num_cluster param
+2020-10-30 13:46:27,784:INFO:Preparing display monitor
+2020-10-30 13:46:27,791:INFO:Importing untrained model
+2020-10-30 13:46:27,791:INFO:K-Modes Clustering Imported succesfully
+2020-10-30 13:46:27,792:INFO:Fitting Model
+2020-10-30 13:46:42,923:INFO:Evaluating Metrics
+2020-10-30 13:46:42,972:INFO:Creating Metrics dataframe
+2020-10-30 13:46:42,974:INFO:KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=14, n_init=1, n_jobs=-1, random_state=1557,
+       verbose=0)
+2020-10-30 13:46:42,974:INFO:create_models() succesfully completed......................................
+2020-10-30 13:46:42,974:INFO:SubProcess create_model() end==================================
+2020-10-30 13:46:42,974:INFO:Generating labels
+2020-10-30 13:46:42,974:INFO:SubProcess assign_model() called==================================
+2020-10-30 13:46:42,975:INFO:Initializing assign_model()
+2020-10-30 13:46:42,975:INFO:assign_model(model=KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=14, n_init=1, n_jobs=-1, random_state=1557,
+       verbose=0), transformation=True, verbose=False)
+2020-10-30 13:46:42,975:INFO:Checking exceptions
+2020-10-30 13:46:42,975:INFO:Preloading libraries
+2020-10-30 13:46:42,975:INFO:Copying data
+2020-10-30 13:46:42,976:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-10-30 13:46:42,976:INFO:Preparing display monitor
+2020-10-30 13:46:42,986:INFO:Determining Trained Model
+2020-10-30 13:46:42,986:INFO:Trained Model : K-Modes Clustering
+2020-10-30 13:46:42,986:INFO:(1033, 820)
+2020-10-30 13:46:42,986:INFO:assign_model() succesfully completed......................................
+2020-10-30 13:46:42,986:INFO:SubProcess assign_model() ends==================================
+2020-10-30 13:46:42,987:INFO:Fitting Model with num_clusters = 18
+2020-10-30 13:46:42,991:INFO:SubProcess create_model() called==================================
+2020-10-30 13:46:42,992:INFO:Initializing create_model()
+2020-10-30 13:46:42,992:INFO:create_model(model=kmodes, num_clusters=18, ground_truth=None, verbose=False, system=False)
+2020-10-30 13:46:42,992:INFO:Checking exceptions
+2020-10-30 13:46:42,992:INFO:Preloading libraries
+2020-10-30 13:46:42,993:INFO:Setting num_cluster param
+2020-10-30 13:46:42,993:INFO:Preparing display monitor
+2020-10-30 13:46:42,999:INFO:Importing untrained model
+2020-10-30 13:46:43,000:INFO:K-Modes Clustering Imported succesfully
+2020-10-30 13:46:43,001:INFO:Fitting Model
+2020-10-30 13:47:02,062:INFO:Evaluating Metrics
+2020-10-30 13:47:02,109:INFO:Creating Metrics dataframe
+2020-10-30 13:47:02,110:INFO:KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=18, n_init=1, n_jobs=-1, random_state=1557,
+       verbose=0)
+2020-10-30 13:47:02,111:INFO:create_models() succesfully completed......................................
+2020-10-30 13:47:02,111:INFO:SubProcess create_model() end==================================
+2020-10-30 13:47:02,111:INFO:Generating labels
+2020-10-30 13:47:02,111:INFO:SubProcess assign_model() called==================================
+2020-10-30 13:47:02,111:INFO:Initializing assign_model()
+2020-10-30 13:47:02,112:INFO:assign_model(model=KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=18, n_init=1, n_jobs=-1, random_state=1557,
+       verbose=0), transformation=True, verbose=False)
+2020-10-30 13:47:02,112:INFO:Checking exceptions
+2020-10-30 13:47:02,112:INFO:Preloading libraries
+2020-10-30 13:47:02,112:INFO:Copying data
+2020-10-30 13:47:02,116:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-10-30 13:47:02,116:INFO:Preparing display monitor
+2020-10-30 13:47:02,125:INFO:Determining Trained Model
+2020-10-30 13:47:02,125:INFO:Trained Model : K-Modes Clustering
+2020-10-30 13:47:02,125:INFO:(1033, 820)
+2020-10-30 13:47:02,125:INFO:assign_model() succesfully completed......................................
+2020-10-30 13:47:02,125:INFO:SubProcess assign_model() ends==================================
+2020-10-30 13:47:02,126:INFO:Fitting Model with num_clusters = 25
+2020-10-30 13:47:02,130:INFO:SubProcess create_model() called==================================
+2020-10-30 13:47:02,131:INFO:Initializing create_model()
+2020-10-30 13:47:02,131:INFO:create_model(model=kmodes, num_clusters=25, ground_truth=None, verbose=False, system=False)
+2020-10-30 13:47:02,131:INFO:Checking exceptions
+2020-10-30 13:47:02,131:INFO:Preloading libraries
+2020-10-30 13:47:02,131:INFO:Setting num_cluster param
+2020-10-30 13:47:02,132:INFO:Preparing display monitor
+2020-10-30 13:47:02,138:INFO:Importing untrained model
+2020-10-30 13:47:02,138:INFO:K-Modes Clustering Imported succesfully
+2020-10-30 13:47:02,139:INFO:Fitting Model
+2020-10-30 13:47:30,179:INFO:Evaluating Metrics
+2020-10-30 13:47:30,230:INFO:Creating Metrics dataframe
+2020-10-30 13:47:30,232:INFO:KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=25, n_init=1, n_jobs=-1, random_state=1557,
+       verbose=0)
+2020-10-30 13:47:30,232:INFO:create_models() succesfully completed......................................
+2020-10-30 13:47:30,232:INFO:SubProcess create_model() end==================================
+2020-10-30 13:47:30,232:INFO:Generating labels
+2020-10-30 13:47:30,232:INFO:SubProcess assign_model() called==================================
+2020-10-30 13:47:30,232:INFO:Initializing assign_model()
+2020-10-30 13:47:30,233:INFO:assign_model(model=KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=25, n_init=1, n_jobs=-1, random_state=1557,
+       verbose=0), transformation=True, verbose=False)
+2020-10-30 13:47:30,233:INFO:Checking exceptions
+2020-10-30 13:47:30,233:INFO:Preloading libraries
+2020-10-30 13:47:30,233:INFO:Copying data
+2020-10-30 13:47:30,234:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-10-30 13:47:30,234:INFO:Preparing display monitor
+2020-10-30 13:47:30,244:INFO:Determining Trained Model
+2020-10-30 13:47:30,244:INFO:Trained Model : K-Modes Clustering
+2020-10-30 13:47:30,244:INFO:(1033, 820)
+2020-10-30 13:47:30,244:INFO:assign_model() succesfully completed......................................
+2020-10-30 13:47:30,244:INFO:SubProcess assign_model() ends==================================
+2020-10-30 13:47:30,245:INFO:Fitting Model with num_clusters = 30
+2020-10-30 13:47:30,249:INFO:SubProcess create_model() called==================================
+2020-10-30 13:47:30,250:INFO:Initializing create_model()
+2020-10-30 13:47:30,250:INFO:create_model(model=kmodes, num_clusters=30, ground_truth=None, verbose=False, system=False)
+2020-10-30 13:47:30,250:INFO:Checking exceptions
+2020-10-30 13:47:30,250:INFO:Preloading libraries
+2020-10-30 13:47:30,250:INFO:Setting num_cluster param
+2020-10-30 13:47:30,250:INFO:Preparing display monitor
+2020-10-30 13:47:30,257:INFO:Importing untrained model
+2020-10-30 13:47:30,257:INFO:K-Modes Clustering Imported succesfully
+2020-10-30 13:47:30,258:INFO:Fitting Model
+2020-10-30 13:48:03,110:INFO:Evaluating Metrics
+2020-10-30 13:48:03,160:INFO:Creating Metrics dataframe
+2020-10-30 13:48:03,162:INFO:KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=30, n_init=1, n_jobs=-1, random_state=1557,
+       verbose=0)
+2020-10-30 13:48:03,162:INFO:create_models() succesfully completed......................................
+2020-10-30 13:48:03,162:INFO:SubProcess create_model() end==================================
+2020-10-30 13:48:03,162:INFO:Generating labels
+2020-10-30 13:48:03,162:INFO:SubProcess assign_model() called==================================
+2020-10-30 13:48:03,163:INFO:Initializing assign_model()
+2020-10-30 13:48:03,163:INFO:assign_model(model=KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=30, n_init=1, n_jobs=-1, random_state=1557,
+       verbose=0), transformation=True, verbose=False)
+2020-10-30 13:48:03,163:INFO:Checking exceptions
+2020-10-30 13:48:03,163:INFO:Preloading libraries
+2020-10-30 13:48:03,163:INFO:Copying data
+2020-10-30 13:48:03,167:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-10-30 13:48:03,167:INFO:Preparing display monitor
+2020-10-30 13:48:03,176:INFO:Determining Trained Model
+2020-10-30 13:48:03,176:INFO:Trained Model : K-Modes Clustering
+2020-10-30 13:48:03,176:INFO:(1033, 820)
+2020-10-30 13:48:03,177:INFO:assign_model() succesfully completed......................................
+2020-10-30 13:48:03,177:INFO:SubProcess assign_model() ends==================================
+2020-10-30 13:48:03,177:INFO:Fitting Model with num_clusters = 40
+2020-10-30 13:48:03,182:INFO:SubProcess create_model() called==================================
+2020-10-30 13:48:03,182:INFO:Initializing create_model()
+2020-10-30 13:48:03,182:INFO:create_model(model=kmodes, num_clusters=40, ground_truth=None, verbose=False, system=False)
+2020-10-30 13:48:03,183:INFO:Checking exceptions
+2020-10-30 13:48:03,183:INFO:Preloading libraries
+2020-10-30 13:48:03,183:INFO:Setting num_cluster param
+2020-10-30 13:48:03,183:INFO:Preparing display monitor
+2020-10-30 13:48:03,189:INFO:Importing untrained model
+2020-10-30 13:48:03,189:INFO:K-Modes Clustering Imported succesfully
+2020-10-30 13:48:03,190:INFO:Fitting Model
+2020-10-30 13:48:49,881:INFO:Evaluating Metrics
+2020-10-30 13:48:49,938:INFO:Creating Metrics dataframe
+2020-10-30 13:48:49,940:INFO:KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=40, n_init=1, n_jobs=-1, random_state=1557,
+       verbose=0)
+2020-10-30 13:48:49,940:INFO:create_models() succesfully completed......................................
+2020-10-30 13:48:49,940:INFO:SubProcess create_model() end==================================
+2020-10-30 13:48:49,940:INFO:Generating labels
+2020-10-30 13:48:49,940:INFO:SubProcess assign_model() called==================================
+2020-10-30 13:48:49,941:INFO:Initializing assign_model()
+2020-10-30 13:48:49,941:INFO:assign_model(model=KModes(cat_dissim=<function matching_dissim at 0x7fabbff0b320>, init='Cao',
+       max_iter=100, n_clusters=40, n_init=1, n_jobs=-1, random_state=1557,
+       verbose=0), transformation=True, verbose=False)
+2020-10-30 13:48:49,941:INFO:Checking exceptions
+2020-10-30 13:48:49,941:INFO:Preloading libraries
+2020-10-30 13:48:49,941:INFO:Copying data
+2020-10-30 13:48:49,945:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-10-30 13:48:49,945:INFO:Preparing display monitor
+2020-10-30 13:48:49,954:INFO:Determining Trained Model
+2020-10-30 13:48:49,954:INFO:Trained Model : K-Modes Clustering
+2020-10-30 13:48:49,955:INFO:(1033, 820)
+2020-10-30 13:48:49,955:INFO:assign_model() succesfully completed......................................
+2020-10-30 13:48:49,955:INFO:SubProcess assign_model() ends==================================
+2020-10-30 13:48:49,956:INFO:Defining Supervised Estimator
+2020-10-30 13:48:49,956:INFO:Problem : Regression
+2020-10-30 13:48:49,960:INFO:Linear Regression Imported Successfully
+2020-10-30 13:48:49,960:INFO:Creating Regressor without clusters
+2020-10-30 13:48:50,165:INFO:Fitting Model
+2020-10-30 13:48:50,264:INFO:Generating Cross Val Predictions
+2020-10-30 13:48:51,499:INFO:Creating Regressor with num_clusters = 4
+2020-10-30 13:48:51,771:INFO:Fitting Model
+2020-10-30 13:48:51,890:INFO:Generating Cross Val Predictions
+2020-10-30 13:48:53,262:INFO:Creating Regressor with num_clusters = 5
+2020-10-30 13:48:53,579:INFO:Fitting Model
+2020-10-30 13:48:53,712:INFO:Generating Cross Val Predictions
+2020-10-30 13:48:55,123:INFO:Creating Regressor with num_clusters = 6
+2020-10-30 13:48:55,436:INFO:Fitting Model
+2020-10-30 13:48:55,573:INFO:Generating Cross Val Predictions
+2020-10-30 13:48:56,945:INFO:Creating Regressor with num_clusters = 8
+2020-10-30 13:48:57,248:INFO:Fitting Model
+2020-10-30 13:48:57,377:INFO:Generating Cross Val Predictions
+2020-10-30 13:48:58,741:INFO:Creating Regressor with num_clusters = 10
+2020-10-30 13:48:59,036:INFO:Fitting Model
+2020-10-30 13:48:59,164:INFO:Generating Cross Val Predictions
+2020-10-30 13:49:00,517:INFO:Creating Regressor with num_clusters = 14
+2020-10-30 13:49:00,804:INFO:Fitting Model
+2020-10-30 13:49:00,924:INFO:Generating Cross Val Predictions
+2020-10-30 13:49:02,268:INFO:Creating Regressor with num_clusters = 18
+2020-10-30 13:49:02,566:INFO:Fitting Model
+2020-10-30 13:49:02,682:INFO:Generating Cross Val Predictions
+2020-10-30 13:49:04,068:INFO:Creating Regressor with num_clusters = 25
+2020-10-30 13:49:04,359:INFO:Fitting Model
+2020-10-30 13:49:04,481:INFO:Generating Cross Val Predictions
+2020-10-30 13:49:05,819:INFO:Creating Regressor with num_clusters = 30
+2020-10-30 13:49:06,105:INFO:Fitting Model
+2020-10-30 13:49:06,254:INFO:Generating Cross Val Predictions
+2020-10-30 13:49:07,625:INFO:Creating Regressor with num_clusters = 40
+2020-10-30 13:49:07,910:INFO:Fitting Model
+2020-10-30 13:49:08,045:INFO:Generating Cross Val Predictions
+2020-10-30 13:49:09,438:INFO:Creating metrics dataframe
+2020-10-30 13:49:09,440:INFO:Rendering Visual
+2020-10-30 13:49:09,991:INFO:Visual Rendered Successfully
+2020-10-30 13:49:09,999:INFO:Resetting environment to original variables
+2020-10-30 13:49:10,003:INFO:No Model Required
+2020-10-30 13:49:10,003:INFO:tune_model() succesfully completed......................................

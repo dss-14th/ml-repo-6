@@ -270,3 +270,28 @@ Name: author, Length: 43903, dtype: int64, train_size=0.8, sampling=True, sample
 2020-11-03 16:21:29,608:INFO:Creating grid variables
 2020-11-03 16:21:29,672:INFO:Creating global containers
 2020-11-03 16:21:59,872:INFO:Sampling dataset
+2020-11-03 19:08:45,396:INFO:PyCaret NLP Module
+2020-11-03 19:08:45,397:INFO:version 2.1.2
+2020-11-03 19:08:45,397:INFO:Initializing setup()
+2020-11-03 19:08:45,397:INFO:USI: 95cb
+2020-11-03 19:08:45,397:INFO:setup(data=(6818, 7), target=en, custom_stopwords=None, html=True, session_id=None, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2020-11-03 19:08:45,397:INFO:Checking environment
+2020-11-03 19:08:45,397:INFO:python_version: 3.7.9
+2020-11-03 19:08:45,397:INFO:python_build: ('default', 'Aug 31 2020 07:22:35')
+2020-11-03 19:08:45,397:INFO:machine: x86_64
+2020-11-03 19:08:45,417:INFO:platform: Darwin-19.6.0-x86_64-i386-64bit
+2020-11-03 19:08:45,418:INFO:Memory: svmem(total=17179869184, available=5999075328, percent=65.1, used=9687265280, free=202993664, active=5800402944, inactive=5325492224, wired=3886862336)
+2020-11-03 19:08:45,418:INFO:Physical Core: 6
+2020-11-03 19:08:45,418:INFO:Logical Core: 12
+2020-11-03 19:08:45,418:INFO:Checking libraries
+2020-11-03 19:08:45,418:INFO:pd==0.25.3
+2020-11-03 19:08:45,418:INFO:numpy==1.18.5
+2020-11-03 19:08:45,730:INFO:gensim==3.8.3
+2020-11-03 19:08:46,325:INFO:spacy==2.3.2
+2020-11-03 19:08:46,325:INFO:nltk==3.5
+2020-11-03 19:08:46,361:INFO:textblob==0.15.3
+2020-11-03 19:08:46,459:INFO:pyLDAvis==2.1.2
+2020-11-03 19:08:46,459:INFO:wordcloud==1.8.0
+2020-11-03 19:08:47,050:INFO:mlflow==1.11.0
+2020-11-03 19:08:47,051:INFO:Checking Exceptions

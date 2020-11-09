@@ -1,7 +1,7 @@
 Fast Campus DSS 14th ML Project-6조
-# Machine Running Project - Machine Running을 활용한 소설 작가 분류
+# Machine Learning Project - Machine Learning을 활용한 소설 작가 분류
 
-Machine Running Algorithm 모델을 활용하여 텍스트 데이터를 분석하여 test data를 분류 및 예측
+Machine Learning Algorithm 모델을 활용하여 텍스트 데이터를 분석하여 test data를 분류 및 예측
 
 - 주제 : 문체 분석 알고리즘 개발
 - 배경 : 작가의 글을 분석하여 특징 도출

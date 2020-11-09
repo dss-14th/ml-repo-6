@@ -30,6 +30,7 @@ SGDClassifier 등 총 12개의 분류 알고리즘 적용
 - 가장 성능(Accuracy)이 높게 나온 5개 분류 모델 선정(LinearSVC, SGD Classifier, LogisticRegression,
 RidgeClassifier, Multinomial NB)
 - 선정된 분류모델에 Hyper-parameter Tuning을 통해 parameter 값 설정
+
 LDA 활용을 통한 토픽 모델링 시각화
 - LDA(Latent Dirichlet Allocation) : 문서의 집합에서 토픽을 찾아내는 프로세스
 

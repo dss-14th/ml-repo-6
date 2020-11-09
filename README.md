@@ -19,14 +19,19 @@ Text Data 분석을 위한 문장 벡터화
 각 문장 간의 유사도 및 거리 측정
 - Cosine 유사도 측정 : 두 개의 벡터값에서 코사인 각도를 구하는 방식(방향성이 함께 포함되어 괜찮은
 성능을 가지는 것으로 알려짐
-- 유클리드 유사도 측정 : 두 벡터사이의 거리를 구하는 방법 
+- 유클라디안 거리 측정 : 두 벡터사이의 거리를 구하는 방법
+- 각 유사도를 구하고 가장 유사하거나 거리가 가까운 문장을 찾아서 비교
 
 다양한 머신러닝 분류 알고리즘 적용하여 문장 별 작가분류 성능 확인
 - LogisticRegression, MultinomialNB, RandomForestClassifier,
 DecisionTreeClassifier, AdaBoostClassifier, GradientBoostingClassifier,
 LGBMClassifier, KNeighborsClassifier, LinearSVC, XgBoost, RidgeClassifier,
 SGDClassifier 등 총 12개의 분류 알고리즘 적용
-- 
+- 가장 성능(Accuracy)이 높게 나온 5개 분류 모델 선정(LinearSVC, SGD Classifier, LogisticRegression,
+RidgeClassifier, Multinomial NB)
+- 선정된 분류모델에 Hyper-parameter Tuning을 통해 parameter 값 설정
+LDA 활용을 통한 토픽 모델링 시각화
+- LDA(Latent Dirichlet Allocation) : 문서의 집합에서 토픽을 찾아내는 프로세스
 
 
 

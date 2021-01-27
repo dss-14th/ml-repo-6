@@ -9,7 +9,7 @@ Machine Learning Algorithm 모델을 활용하여 작가 텍스트 데이터를 
 - 주제 : 문체 분석 알고리즘 개발
 - 배경 : 작가의 글을 분석하여 특징 도출
 - 목적 : 작가 소설 속 문장 특징 도출 및 문장뭉치 분석을 통한 작가 예측
-- DATA 출처 : ACON 소설 작가 분류 AI 경진대회 Data 사용
+- DATA 출처 : DACON 소설 작가 분류 AI 경진대회 Data 사용
 
 팀구성
 >* 김형기 : TfidfVectorizer, 모델링, 토픽 모델링(LDA)
